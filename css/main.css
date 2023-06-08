@@ -281,7 +281,7 @@ html {
 }
 
 body {
-  color: #110f24;
+  color: #ffffff;
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1022,13 +1022,13 @@ p:last-child {
 }
 
 /* Images */
-.bg-image-01:after {
-  background: url(../media/bg/image-01@2x.jpg);
+.bg-logo:after {
+  background: url(./media/bg/favicon.png);
 }
 
 @media only screen and (max-width: 479px) {
-  .bg-image-01:after {
-    background: url(../media/bg/image-01.jpg);
+  .bg-logo:after {
+    background: url(./media/bg/favicon.png);
   }
 }
 
@@ -1069,36 +1069,6 @@ p:last-child {
 @media only screen and (max-width: 479px) {
   .bg-image-05:after {
     background: url(../media/bg/image-05.jpg);
-  }
-}
-
-.bg-image-06:after {
-  background: url(../media/bg/image-06@2x.jpg);
-}
-
-@media only screen and (max-width: 479px) {
-  .bg-image-06:after {
-    background: url(../media/bg/image-06.jpg);
-  }
-}
-
-.bg-image-07:after {
-  background: url(../media/bg/image-07@2x.jpg);
-}
-
-@media only screen and (max-width: 479px) {
-  .bg-image-07:after {
-    background: url(../media/bg/image-07.jpg);
-  }
-}
-
-.bg-image-08:after {
-  background: url(../media/bg/image-08@2x.jpg);
-}
-
-@media only screen and (max-width: 479px) {
-  .bg-image-08:after {
-    background: url(../media/bg/image-08.jpg);
   }
 }
 
@@ -1728,7 +1698,7 @@ p:last-child {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1rem;
-  opacity: 0.4;
+  opacity: 1;
   padding-bottom: 3rem;
   text-align: center;
 }
