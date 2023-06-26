@@ -1,5 +1,10 @@
 {
-"version":"12",
+"version":"121",
 "title":"Đã có phiên bản mới",
-"desc":"Bạn có muốn cập nhật không?"
+"desc":"Về phiên bản này:
+- Sửa lỗi cập nhật
+- Sửa lỗi không thể chơi khi không có mạng
+- Sửa lỗi tính sai điểm
+- Cập nhật thêm hình ảnh, khiến chúng trở nên sinh động hơn
+Bạn có muốn cập nhật không?"
 }
