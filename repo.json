@@ -22,5 +22,11 @@
 		"description": "Enmity là phiên bản mod của Discord",
 		"bundleID": "com.hammerandchisel.discord",
 		"appstore": "com.hammerandchisel.discord"
+	}, {
+		"name": "Cowabunga",
+		"version": "10.3.2",
+		"down": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+		"category": "Jailbreaks",
+		"description": "Một ứng dụng bẻ khoá cho iOS 14.0-15.7.1 và 16.0-16.1.2 sử dụng lỗi CVE-2022-46689."
 	}
 	]}
