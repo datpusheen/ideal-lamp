@@ -25,6 +25,7 @@
 	}, {
 		"name": "Cowabunga",
 		"version": "10.3.2",
+		"icon": "https://user-images.githubusercontent.com/52459150/215552092-9dc1e029-da35-43da-867f-17279e3dc180.png",
 		"down": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
 		"category": "Jailbreaks",
 		"description": "Một ứng dụng bẻ khoá cho iOS 14.0-15.7.1 và 16.0-16.1.2 sử dụng lỗi CVE-2022-46689."
