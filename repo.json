@@ -1,0 +1,26 @@
+{
+	"META": {
+		"repoName": "peeshun's repo",
+		"repoIcon": "https://cdn.discordapp.com/avatars/647419678494556176/91c441bf1efe5181c2b89fbc4398d46e.png"
+	},
+	"Tweaked": [{
+		"name": "uYou+ Extra",
+		"version": "18.32.2",
+		"down": "https://github.com/arichorn/uYouPlusExtra/releases/download/v18.38.2-3.0.1/uYouPlusExtra_18.38.2_3.0.1.ipa",
+		"category": "Tweaked Apps",
+		"description": "Phiên bản mod của YouTube",
+		"bundleID": "com.google.ios.youtube",
+		"appstore": "com.google.ios.youtube",
+		"contact": {
+			"web": "https://datpusheen.github.io/ideal-lamp"
+		}
+	}, {
+		"name": "Enmity",
+		"version": "2.2.6",
+		"down": "https://github.com/enmity-mod/tweak/releases/download/v2.2.6/Enmity.ipa",
+		"category": "Tweaked Apps",
+		"description": "Enmity là phiên bản mod của Discord",
+		"bundleID": "com.hammerandchisel.discord",
+		"appstore": "com.hammerandchisel.discord"
+	}
+}]
