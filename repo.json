@@ -14,7 +14,7 @@
 		"contact": {
 			"web": "https://datpusheen.github.io/ideal-lamp"
 		},
-		"changelog": "- Updated YouTube from v18.38.2 to v18.39.1"
+		"changelog": "- Updated YouTube from v18.38.2 to v18.39.1\n- Updated YTNoModernUI: Hints is no longer Rounded.\n- Updated OLED and OLD Dark Theme."
 	}, {
 		"name": "Enmity",
 		"version": "2.2.6",
