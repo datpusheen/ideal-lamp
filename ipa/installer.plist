@@ -11,7 +11,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>https://github.com/datpusheen/ideal-lamp/raw/main/ipa/Ph%C5%93nix_6.0_1698540822signed.ipa</string>
+                   <string>https://push33nxx-my.sharepoint.com/personal/admin_pishun_store/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fadmin%5Fpishun%5Fstore%2FDocuments%2Fipa%2FuYouPlusExtra%5F18%2E41%2E5%5F3%2E0%2E1%2Dsigned%2Eipa</string>
                </dict>
 				<dict>
 					<key>kind</key>
@@ -32,15 +32,15 @@
            </array><key>metadata</key>
            <dict>
                <key>bundle-identifier</key>
-               <string>supplies.wall.phoenix</string>
+               <string>com.google.ios.youtube</string>
                <key>bundle-version</key>
-               <string>6.0</string>
+               <string>18.41.5</string>
                <key>kind</key>
                <string>software</string>
                <key>subtitle</key>
-               <string>Phoenix</string>
+               <string>YouTube</string>
                <key>title</key>
-               <string>Phoenix signed by pishun</string>
+               <string>uYouPlus</string>
            </dict>
        </dict>
    </array>
