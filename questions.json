@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "type": "3",
+      "title": "Thứ nào sau đây không có bánh xe?",
+      "ans1": "Xe đạp đôi",
+      "ans2": "Giầy patin",
+      "ans3": "Ván lướt sóng",
+      "ans4": "Xích lô",
+      "note": "Ván lướt sóng di chuyển trên mặt nước nhờ lực đẩy của sóng, không cần bánh xe!"
+    },
+    {
+      "id": "2",
+      "type": "2",
+      "title": "Hệ mặt trời có bao nhiêu hành tinh?",
+      "ans1": "7",
+      "ans2": "8",
+      "ans3": "9",
+      "ans4": "10",
+      "note": "Hệ Mặt Trời có 8 hành tinh chính, sau khi sao Diêm Vương bị loại khỏi danh sách hành tinh vào năm 2006."
+    }
+  ]
+}
