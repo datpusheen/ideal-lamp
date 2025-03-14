@@ -1523,7 +1523,7 @@ p:last-child {
 
 .button.button-secondary {
   background: #ececee;
-  color: #110f24;
+  color: #ffd000;
 }
 
 .button.button-secondary:hover {
@@ -1533,16 +1533,16 @@ p:last-child {
   -o-transform: translateY(-1px);
   transform: translateY(-1px);
   background: #f6f6f9;
-  color: #575bde;
+  color: #ffd000;
 }
 
 .dark .button.button-secondary {
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffd00093;
   color: #fff;
 }
 
 .dark .button.button-secondary:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: #ffd000d5;
 }
 
 .button.button-disabled {
