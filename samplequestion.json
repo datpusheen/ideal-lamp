@@ -1,9 +1,11 @@
 {
-"id":"0",
-"type":"1",
-"title":"Đặt câu hỏi của bạn vào đây!",
-"ans1":"A",
-"ans2":"B",
-"ans3":"C",
-"ans4":"D"
+  "sample": {
+    "type": "1",
+    "title": "Đặt câu hỏi của bạn vào đây!",
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D",
+    "note": "Đây là một câu hỏi mẫu để tham khảo định dạng."
+  }
 }
