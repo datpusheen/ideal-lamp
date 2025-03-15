@@ -1546,7 +1546,7 @@ p:last-child {
 }
 
 .button.button-disabled {
-  background: #ccced0;
+  background: #ccced09a;
   color: #110f24;
   cursor: default;
   opacity: 0.4;
