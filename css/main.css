@@ -2573,3 +2573,19 @@ table td {
   margin-top:.15rem;           /* cách nhẹ bên trên */
   line-height:1rem;
 }
+
+/* ------------------ Mobile tweaks (≤ 480 px) ------------------ */
+@media (max-width:480px){
+  /* Cho iPhone, SE, Mini, v.v. */
+  .release-btn{
+    width:100%;          /* nút chiếm trọn chiều ngang ­– dễ bấm */
+    padding:1rem 1rem;   /* đệm rộng hơn khi nút cao */
+    border-radius:44px;  /* bo góc to cho nút dài */
+  }
+  .release-btn .label{
+    font-size:.95rem;    /* thu nhỏ 1 chút so với desktop */
+  }
+  .release-btn .date{
+    font-size:.7rem;     /* nhỏ thêm để không bị chen lấn */
+  }
+}
