@@ -2549,3 +2549,27 @@ table td {
     position: relative;
   }
 }
+
+/* nút tải kèm ngày phát hành */
+.release-btn{
+  height:auto;                 /* cho phép cao hơn 3 rem */
+  line-height:1.2rem;          /* bỏ line-height cũ */
+  padding:.75rem 1.25rem;      /* nới đệm dọc */
+  display:inline-flex;
+  flex-direction:column;       /* xếp dọc hai dòng */
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.release-btn .label{
+  font-size:1rem;              /* giữ nguyên cỡ chính */
+  font-weight:700;
+}
+
+.release-btn .date{
+  font-size:.75rem;            /* nhỏ hơn */
+  opacity:.8;                  /* nhạt bớt */
+  margin-top:.15rem;           /* cách nhẹ bên trên */
+  line-height:1rem;
+}
