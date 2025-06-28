@@ -10,6 +10,30 @@
   <link rel="shortcut icon" href="./media/favicon.png">
   <link rel="stylesheet" href="./css/main.css">
 </head>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Phát hiện thiết bị Apple (iOS / macOS Safari)
+  const isApple = /iPhone|iPad|iPod|Macintosh/i.test(navigator.userAgent);
+
+  if (!isApple) {
+    const overlay = document.createElement('div');
+    overlay.id = 'os-popup';
+    overlay.innerHTML = `
+      <div class="popup-box">
+        <p>⚠️ Ứng dụng này được xây dựng cho <strong>Apple Shortcuts</strong>.<br>
+        Vui lòng mở trang này trên iPhone/iPad/Mac.</p>
+        <button id="continue-btn" class="button button-secondary space-top release-btn">Vẫn tiếp tục truy cập</button>
+      </div>`;
+    document.body.appendChild(overlay);
+    document.getElementById('continue-btn').addEventListener('click', () => {
+      overlay.remove();
+    });
+  }
+});
+</script>
+
+
 <body class="page page-home">
 
   <header class="header-main dark">
