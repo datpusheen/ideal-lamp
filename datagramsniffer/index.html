@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DatagramSniffer by pishun</title>
+  <meta name="description" content="Shortcut giúp đọc API của Datagram Network.">
+  <link rel="apple-touch-icon-precomposed" href="../media/favicon.png">
+  <link rel="icon" href="../media/favicon.png">
+  <link rel="mask-icon" href="../media/favicon.png" color="rgb(36,38,58)">
+  <link rel="shortcut icon" href="../media/favicon.png">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Phát hiện thiết bị Apple (iOS / macOS Safari)
+  const isApple = /iPhone|iPad|iPod|Macintosh/i.test(navigator.userAgent);
+
+  if (!isApple) {
+    const overlay = document.createElement('div');
+    overlay.id = 'os-popup';
+    overlay.innerHTML = `
+      <div class="popup-box">
+        <p>⚠️ Ứng dụng này được xây dựng cho <strong>Apple Shortcuts</strong>.<br>
+        Vui lòng mở trang này trên iPhone/iPad/Mac.</p>
+        <button id="continue-btn" class="button button-secondary space-top release-btn">
+          Vẫn tiếp tục truy cập
+        </button>
+      </div>`;
+    document.body.appendChild(overlay);
+    document.getElementById('continue-btn').addEventListener('click', () => {
+      overlay.remove();
+    });
+  }
+});
+</script>
+
+<body class="page page-home">
+
+  <header class="header-main dark">
+  <nav>
+    <a href="../index.html" class="logo" rel="home">
+      <img src="../media/favicon.png" width="32" height="60" alt="Logo">
+      <span>IDL</span>
+    </a>
+
+  </nav>
+</header>
+
+
+  <main>
+    <section class="bg-image-hero center-tablet dark overlay-hero">
+      <div class="full-screen -margin-bottom middle padding padding-top-tablet" style="min-height:120vh;">
+        <div class="row max-width-l">
+          <div class="col-one-half middle">
+            <div>
+              <h1 class="hero">DatagramSniffer 🔍</h1>
+              <p class="lead">
+                Shortcut giúp đọc API của <strong>Datagram Network</strong>
+              </p>
+              <p>
+                Hoạt động bằng
+                <a href="https://apps.apple.com/vn/app/ph%C3%ADm-t%E1%BA%AFt/id1462947752?l=vi"
+                   style="color: #ffd000; text-decoration: none; font-weight: bold;">
+                  Shortcuts
+                </a>
+              </p>
+
+              <a href="https://www.icloud.com/shortcuts/5261ccc219b746399b567019dd95a24b"
+                 class="button button-primary space-top release-btn">
+                <span class="label">Tải xuống (1.0)</span>
+                <span class="date">Stable︱07 / 10 / 2025</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-main bg-dark">
+    <p class="copyright">
+      Made with ❤️ by 
+      <a href="https://www.facebook.com/pishunthecat"
+         style="color: #ffd000; text-decoration: none; font-weight: bold;">
+        pishun
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
