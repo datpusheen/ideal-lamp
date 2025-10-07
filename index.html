@@ -37,18 +37,25 @@ document.addEventListener('DOMContentLoaded', () => {
 <body class="page page-home">
 
   <header class="header-main dark">
-    <nav>
-		<a href="index.html" class="logo" rel="home"><img src="./media/favicon.png" width="32" height="60"><span>IDL</span></a>
-    </nav>
-	<style>
-		ab {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-	</style>
-  </header>
+  <nav>
+    <a href="./index.html" class="logo" rel="home">
+      <img src="./media/favicon.png" width="32" height="60" alt="Logo">
+      <span>IDL</span>
+    </a>
+
+    <!-- ✅ Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="./datagramsniffer/index.html">DatagramSniffer</span>
+    </div>
+  </nav>
+</header>
+
 
   <main>
 
     <section class="bg-image-hero center-tablet dark overlay-hero">
-      <div class="full-screen -margin-bottom middle padding padding-top-tablet">
+      <div class="full-screen -margin-bottom middle padding padding-top-tablet" style="min-height:70vh;">
+
         <div class="row max-width-l">
           <div class="col-one-half middle">
             <div>
@@ -68,9 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
 </a>
 
             </div>
-          </div>
-          <div class="col-one-half middle">
-            <img src="./media/sclogo.png" srcset="./media/sclogo.png 1x, ./media/sclogo.png 2x" alt="Shortcuts Logo">
           </div>
         </div>
       </div>
@@ -113,4 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
     </a>
   </p>
 </footer>
-</body></html>
+</body>
+
+</html>
