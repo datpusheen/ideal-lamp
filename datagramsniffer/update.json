@@ -1,5 +1,5 @@
 {
 "build":"2",
-"desc":"DSniff 1.0.1\nCó gì mới:\n- Loại bỏ hiển thị các dữ liệu cho các extension, thay vào đó sẽ output ra.",
+"desc":"DSniff 1.0.1\nCó gì mới:\n- Loại bỏ hiển thị kết quả các dữ liệu thu thập từ api, thay vào đó sẽ output ra.",
 "info":"DSniff 1.0.1"
 }
