@@ -1,5 +1,5 @@
 {
-"build":"1",
-"desc":"DSniff 1.0\nCó gì mới:\n- Sửa lỗi.",
-"info":"DSniff 1.0"
+"build":"2",
+"desc":"DSniff 1.0.1\nCó gì mới:\n- Loại bỏ hiển thị các dữ liệu cho các extension, thay vào đó sẽ output ra.",
+"info":"DSniff 1.0.1"
 }
