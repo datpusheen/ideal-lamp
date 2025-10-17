@@ -1,5 +1,5 @@
 {
-"build":"3",
-"desc":"DSniff 1.0.2\nCó gì mới:\n- Hiển thị kết quả lấy api quay trở lại.",
-"info":"DSniff 1.0.2"
+"build":"4",
+"desc":"DSniff 1.0.3\nCó gì mới:\n- Sửa một số lỗi đăng nhập nhỏ khiến bạn không thể đăng nhập bình thường.\n- Chỉnh lại phần hiển thị kết quả thu thập api.",
+"info":"DSniff 1.0.3"
 }
