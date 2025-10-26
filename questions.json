@@ -1,93 +1,105 @@
 {
-  "total":"10",
-  "q1": {
-    "type": "3",
-    "title": "Thứ nào sau đây không có bánh xe?",
-    "a": "Xe đạp đôi",
-    "b": "Giầy patin",
-    "c": "Ván lướt sóng",
-    "d": "Xích lô",
-    "note": "Ván lướt sóng di chuyển trên mặt nước nhờ lực đẩy của sóng, không cần bánh xe!"
-  },
-  "q2": {
-    "type": "2",
-    "title": "Hệ mặt trời có bao nhiêu hành tinh?",
-    "a": "7",
-    "b": "8",
-    "c": "9",
-    "d": "10",
-    "note": "Hệ Mặt Trời có 8 hành tinh chính, sau khi sao Diêm Vương bị loại khỏi danh sách hành tinh vào năm 2006."
-  },
-  "q3": {
-    "type": "1",
-    "title": "Loài động vật nào sau đây là động vật có vú?",
-    "a": "Cá heo",
-    "b": "Cá mập",
-    "c": "Bạch tuộc",
-    "d": "Ếch",
-    "note": "Cá heo là động vật có vú, chúng hô hấp bằng phổi và sinh con thay vì đẻ trứng!"
-  },
-  "q4": {
-    "type": "2",
-    "title": "Nguyên tố nào có ký hiệu hóa học là 'O'?",
-    "a": "Vàng",
-    "b": "Oxy",
-    "c": "Bạc",
-    "d": "Sắt",
-    "note": "Oxy (O) là một nguyên tố thiết yếu cho sự sống trên Trái Đất."
-  },
-  "q5": {
-    "type": "2",
-    "title": "Ai là người phát minh ra bóng đèn sợi đốt?",
-    "a": "Nikola Tesla",
-    "b": "Thomas Edison",
-    "c": "Techsung",
-    "d": "Albert Einstein",
-    "note": "Thomas Edison là người hoàn thiện bóng đèn sợi đốt và đưa nó vào ứng dụng rộng rãi."
-  },
-  "q6": {
-    "type": "1",
-    "title": "Quốc gia nào có diện tích lớn nhất thế giới?",
-    "a": "Nga",
-    "b": "Canada",
-    "c": "Mỹ",
-    "d": "Trung Quốc",
-    "note": "Nga là quốc gia có diện tích lớn nhất thế giới, chiếm hơn 17 triệu km²."
-  },
-  "q7": {
-    "type": "3",
-    "title": "Đơn vị đo cường độ dòng điện là gì?",
-    "a": "Volt",
-    "b": "Ohm",
-    "c": "Ampe",
-    "d": "Watt",
-    "note": "Ampe (A) là đơn vị đo cường độ dòng điện, được đặt theo tên nhà khoa học André-Marie Ampère."
-  },
-  "q8": {
-    "type": "1",
-    "title": "Loại nào sau đây là ngôn ngữ lập trình?",
-    "a": "Python",
-    "b": "HTML",
-    "c": "CSS",
-    "d": "JPEG",
-    "note": "Python là một ngôn ngữ lập trình phổ biến, được sử dụng trong nhiều lĩnh vực khác nhau."
-  },
-  "q9": {
-    "type": "2",
-    "title": "Ai là tác giả của 'Đắc nhân tâm'?",
-    "a": "Napoleon Hill",
-    "b": "Dale Carnegie",
-    "c": "Stephen Covey",
-    "d": "Robert Kiyosaki",
-    "note": "'Đắc nhân tâm' là một cuốn sách nổi tiếng về nghệ thuật giao tiếp và thành công trong cuộc sống, được viết bởi Dale Carnegie."
-  },
-  "q10": {
-    "type": "2",
-    "title": "Bộ phim nào sau đây đoạt giải Oscar cho 'Phim hay nhất' năm 1998?",
-    "a": "Titanic",
-    "b": "Shakespeare in Love",
-    "c": "Saving Private Ryan",
-    "d": "Forrest Gump",
-    "note": "'Shakespeare in Love' giành giải Oscar cho 'Phim hay nhất' năm 1998, đánh bại nhiều đối thủ mạnh."
-  }
+  "total": 10,
+  "questions": [
+    {
+      "id": 1,
+      "type": "3",
+      "title": "Thứ nào sau đây không có bánh xe?",
+      "a": "Xe đạp đôi",
+      "b": "Giầy patin",
+      "c": "Ván lướt sóng",
+      "d": "Xích lô",
+      "note": "Ván lướt sóng di chuyển trên mặt nước nhờ lực đẩy của sóng, không cần bánh xe!"
+    },
+    {
+      "id": 2,
+      "type": "2",
+      "title": "Hệ mặt trời có bao nhiêu hành tinh?",
+      "a": "7",
+      "b": "8",
+      "c": "9",
+      "d": "10",
+      "note": "Hệ Mặt Trời có 8 hành tinh chính, sau khi sao Diêm Vương bị loại khỏi danh sách hành tinh vào năm 2006."
+    },
+    {
+      "id": 3,
+      "type": "1",
+      "title": "Loài động vật nào sau đây là động vật có vú?",
+      "a": "Cá heo",
+      "b": "Cá mập",
+      "c": "Bạch tuộc",
+      "d": "Ếch",
+      "note": "Cá heo là động vật có vú, chúng hô hấp bằng phổi và sinh con thay vì đẻ trứng!"
+    },
+    {
+      "id": 4,
+      "type": "2",
+      "title": "Nguyên tố nào có ký hiệu hóa học là 'O'?",
+      "a": "Vàng",
+      "b": "Oxy",
+      "c": "Bạc",
+      "d": "Sắt",
+      "note": "Oxy (O) là một nguyên tố thiết yếu cho sự sống trên Trái Đất."
+    },
+    {
+      "id": 5,
+      "type": "2",
+      "title": "Ai là người phát minh ra bóng đèn sợi đốt?",
+      "a": "Nikola Tesla",
+      "b": "Thomas Edison",
+      "c": "Techsung",
+      "d": "Albert Einstein",
+      "note": "Thomas Edison là người hoàn thiện bóng đèn sợi đốt và đưa nó vào ứng dụng rộng rãi."
+    },
+    {
+      "id": 6,
+      "type": "1",
+      "title": "Quốc gia nào có diện tích lớn nhất thế giới?",
+      "a": "Nga",
+      "b": "Canada",
+      "c": "Mỹ",
+      "d": "Trung Quốc",
+      "note": "Nga là quốc gia có diện tích lớn nhất thế giới, chiếm hơn 17 triệu km²."
+    },
+    {
+      "id": 7,
+      "type": "3",
+      "title": "Đơn vị đo cường độ dòng điện là gì?",
+      "a": "Volt",
+      "b": "Ohm",
+      "c": "Ampe",
+      "d": "Watt",
+      "note": "Ampe (A) là đơn vị đo cường độ dòng điện, được đặt theo tên nhà khoa học André-Marie Ampère."
+    },
+    {
+      "id": 8,
+      "type": "1",
+      "title": "Loại nào sau đây là ngôn ngữ lập trình?",
+      "a": "Python",
+      "b": "HTML",
+      "c": "CSS",
+      "d": "JPEG",
+      "note": "Python là một ngôn ngữ lập trình phổ biến, được sử dụng trong nhiều lĩnh vực khác nhau."
+    },
+    {
+      "id": 9,
+      "type": "2",
+      "title": "Ai là tác giả của 'Đắc nhân tâm'?",
+      "a": "Napoleon Hill",
+      "b": "Dale Carnegie",
+      "c": "Stephen Covey",
+      "d": "Robert Kiyosaki",
+      "note": "'Đắc nhân tâm' là một cuốn sách nổi tiếng về nghệ thuật giao tiếp và thành công trong cuộc sống, được viết bởi Dale Carnegie."
+    },
+    {
+      "id": 10,
+      "type": "2",
+      "title": "Bộ phim nào sau đây đoạt giải Oscar cho 'Phim hay nhất' năm 1998?",
+      "a": "Titanic",
+      "b": "Shakespeare in Love",
+      "c": "Saving Private Ryan",
+      "d": "Forrest Gump",
+      "note": "'Shakespeare in Love' giành giải Oscar cho 'Phim hay nhất' năm 1998, đánh bại nhiều đối thủ mạnh."
+    }
+  ]
 }
