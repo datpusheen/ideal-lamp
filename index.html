@@ -106,7 +106,6 @@
   </style>
 </head>
 <body class="text-white antialiased overflow-x-hidden">
-  <!-- Device Warning Popup -->
   <div id="device-warning" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm hidden">
     <div class="relative max-w-md w-full glass-card rounded-3xl p-6 animate-fade-in">
       <button onclick="closeWarning()" class="absolute top-4 right-4 text-white/60 hover:text-white transition-colors">
@@ -131,11 +130,9 @@
     </div>
   </div>
 
-  <!-- Header -->
   <header class="fixed top-0 left-0 right-0 transition-all duration-300" style="z-index: 50;" id="header">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
-        <!-- Logo -->
         <a href="/" class="flex items-center gap-2 group">
           <div class="relative">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="text-idl-yellow group-hover:scale-110 transition-transform"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7zM9 21a1 1 0 0 1 1-1h4a1 1 0 0 1 0 2h-4a1 1 0 0 1-1-1z"/></svg>
@@ -143,21 +140,18 @@
           <span class="text-xl font-bold text-white">IDL</span>
         </a>
 
-        <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-8">
           <a href="#features" class="text-white/70 hover:text-white transition-colors text-sm font-medium">Tính năng</a>
           <a href="#downloads" class="text-white/70 hover:text-white transition-colors text-sm font-medium">Tải xuống</a>
           <a href="#changelog" class="text-white/70 hover:text-white transition-colors text-sm font-medium">Nhật ký</a>
         </div>
 
-        <!-- Breadcrumb -->
         <div class="hidden md:flex items-center">
           <a href="/datagramsniffer" class="text-idl-yellow hover:text-idl-yellow/80 transition-colors font-medium text-sm">
             DatagramSniffer
           </a>
         </div>
 
-        <!-- Mobile Menu Button -->
         <button onclick="toggleMenu()" class="md:hidden relative w-10 h-10 flex items-center justify-center text-white/70 hover:text-white transition-colors rounded-xl hover:bg-white/5">
           <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
           <svg id="menu-icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
@@ -167,13 +161,10 @@
 
   </header>
 
-  <!-- Mobile Menu Overlay -->
   <div id="mobile-overlay" onclick="toggleMenu()" class="fixed inset-0 bg-black/70 backdrop-blur-sm md:hidden opacity-0 pointer-events-none transition-opacity duration-300" style="z-index: 60;"></div>
 
-  <!-- Mobile Menu Drawer -->
   <div id="mobile-menu" class="fixed top-0 right-0 bottom-0 w-72 bg-[#110f24] md:hidden transform translate-x-full transition-transform duration-300" style="z-index: 70;">
     <div class="flex flex-col h-full">
-      <!-- Drawer Header -->
       <div class="flex items-center justify-between p-4 border-b border-white/10 bg-[#110f24]">
         <div class="flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-idl-yellow"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7zM9 21a1 1 0 0 1 1-1h4a1 1 0 0 1 0 2h-4a1 1 0 0 1-1-1z"/></svg>
@@ -184,7 +175,6 @@
         </button>
       </div>
 
-      <!-- Drawer Content -->
       <div class="flex-1 overflow-y-auto py-4 bg-[#110f24]">
         <nav class="px-4 space-y-1">
           <a href="#features" onclick="toggleMenu()" class="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:text-white hover:bg-white/5 transition-all">
@@ -222,7 +212,6 @@
         </div>
       </div>
 
-      <!-- Drawer Footer -->
       <div class="p-4 border-t border-white/10 bg-[#110f24]">
         <div class="flex items-center gap-2 text-white/50 text-xs">
           <span>Made with</span>
@@ -234,9 +223,7 @@
   </div>
 
   <main>
-    <!-- Hero Section -->
     <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16" id="hero">
-      <!-- Background Elements -->
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
         <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-idl-primary/10 blur-3xl animate-pulse-slow"></div>
         <div class="absolute bottom-1/4 right-1/4 w-48 h-48 rounded-full bg-idl-accent/10 blur-3xl animate-pulse-slow" style="animation-delay: 2s;"></div>
@@ -245,19 +232,16 @@
 
       <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div class="text-center">
-          <!-- Badge -->
           <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-8 animate-fade-in opacity-0" style="animation-delay: 0.1s; animation-fill-mode: forwards;">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-idl-yellow"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
             <span class="text-sm text-white/80">Trò chơi nhảm nhí giúp bạn giải trí</span>
           </div>
 
-          <!-- Main Title -->
           <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 animate-slide-up opacity-0" style="animation-delay: 0.2s; animation-fill-mode: forwards;">
             <span class="text-white">Ideal </span>
             <span class="gradient-text">Lamp</span>
           </h1>
 
-          <!-- Subtitle -->
           <p class="text-lg sm:text-xl text-white/70 max-w-2xl mx-auto mb-4 animate-slide-up opacity-0" style="animation-delay: 0.3s; animation-fill-mode: forwards;">
             Một trò chơi nhảm nhí giúp bạn giải trí 🐧
           </p>
@@ -266,15 +250,14 @@
             Hoạt động bằng <a href="https://apps.apple.com/vn/app/ph%C3%ADm-t%E1%BA%AFt/id1462947752?l=vi" target="_blank" rel="noopener noreferrer" class="text-idl-yellow hover:text-idl-yellow/80 font-semibold transition-colors">Shortcuts</a>
           </p>
 
-          <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up opacity-0" style="animation-delay: 0.5s; animation-fill-mode: forwards;">
-            <a href="https://www.icloud.com/shortcuts/5261ccc219b746399b567019dd95a24b" target="_blank" rel="noopener noreferrer" class="group relative px-8 py-4 rounded-2xl font-bold text-white overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-idl-primary/30">
+            <a href="https://www.icloud.com/shortcuts/0fae93ecea5040ddaf1ed8071c489c9d" target="_blank" rel="noopener noreferrer" class="group relative px-8 py-4 rounded-2xl font-bold text-white overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-idl-primary/30">
               <div class="absolute inset-0 solid-btn transition-colors"></div>
               <span class="relative flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-                Tải xuống 1.2.4b
+                Tải xuống 1.2.5
               </span>
-              <span class="relative block text-xs font-normal opacity-70 mt-1">Stable • 26/06/2025</span>
+              <span class="relative block text-xs font-normal opacity-70 mt-1">Stable • 21/03/2026</span>
             </a>
 
             <a href="https://www.icloud.com/shortcuts/7b874d721f834133a36035b9feab5b90" target="_blank" rel="noopener noreferrer" class="group px-8 py-4 rounded-2xl font-bold text-white border border-white/20 bg-white/5 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105">
@@ -289,7 +272,6 @@
       </div>
     </section>
 
-    <!-- Features Section -->
     <section id="features" class="relative py-24 sm:py-32 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-idl-dark via-[#0a0818] to-idl-darker"></div>
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-idl-primary/5 rounded-full blur-3xl"></div>
@@ -303,7 +285,6 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-          <!-- Feature 1 -->
           <div class="group relative">
             <div class="relative h-full p-8 rounded-3xl glass-card hover:bg-white/10 transition-all duration-300 overflow-hidden">
               <div class="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-yellow-500 opacity-0 group-hover:opacity-20 blur-3xl transition-opacity duration-500"></div>
@@ -315,7 +296,6 @@
             </div>
           </div>
 
-          <!-- Feature 2 -->
           <div class="group relative">
             <div class="relative h-full p-8 rounded-3xl glass-card hover:bg-white/10 transition-all duration-300 overflow-hidden">
               <div class="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-cyan-500 opacity-0 group-hover:opacity-20 blur-3xl transition-opacity duration-500"></div>
@@ -327,7 +307,6 @@
             </div>
           </div>
 
-          <!-- Feature 3 -->
           <div class="group relative">
             <div class="relative h-full p-8 rounded-3xl glass-card hover:bg-white/10 transition-all duration-300 overflow-hidden">
               <div class="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-pink-500 opacity-0 group-hover:opacity-20 blur-3xl transition-opacity duration-500"></div>
@@ -340,7 +319,6 @@
           </div>
         </div>
 
-        <!-- Info Card -->
         <div class="mt-16">
           <div class="relative p-8 rounded-3xl overflow-hidden">
             <div class="absolute inset-0 bg-idl-primary/10"></div>
@@ -359,7 +337,6 @@
       </div>
     </section>
 
-    <!-- Downloads Section -->
     <section id="downloads" class="relative py-24 sm:py-32 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-idl-darker via-[#0a0818] to-idl-dark"></div>
       <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-idl-accent/5 rounded-full blur-3xl"></div>
@@ -373,7 +350,6 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-3xl mx-auto">
-          <!-- Stable Version -->
           <div class="group relative">
             <div class="relative h-full p-8 rounded-3xl glass-card hover:bg-white/10 transition-all duration-300 overflow-hidden">
               <div class="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-idl-primary opacity-0 group-hover:opacity-20 blur-3xl transition-opacity duration-500"></div>
@@ -384,34 +360,29 @@
                 <span class="px-3 py-1 rounded-full text-xs font-bold solid-btn text-white">Stable</span>
               </div>
               <div class="mb-6">
-                <h3 class="text-3xl font-black text-white mb-2">IDL 1.2.4b</h3>
+                <h3 class="text-3xl font-black text-white mb-2">IDL 1.2.5</h3>
                 <div class="flex items-center gap-2 text-white/50 text-sm">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
-                  <span>26/06/2025</span>
+                  <span>21/03/2026</span>
                 </div>
               </div>
               <ul class="space-y-2 mb-8">
                 <li class="flex items-center gap-2 text-white/70 text-sm">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-idl-accent flex-shrink-0"><path d="M12 2v20M2 12h20"/></svg>
-                  <span>Sửa lỗi</span>
+                  <span>Sửa lại menu để tương thích với iOS 26</span>
                 </li>
                 <li class="flex items-center gap-2 text-white/70 text-sm">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-idl-accent flex-shrink-0"><path d="M12 2v20M2 12h20"/></svg>
-                  <span>Ổn định</span>
-                </li>
-                <li class="flex items-center gap-2 text-white/70 text-sm">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-idl-accent flex-shrink-0"><path d="M12 2v20M2 12h20"/></svg>
-                  <span>Đã kiểm thử</span>
+                  <span>Sửa lỗi khiến người chơi phải đợi quá lâu</span>
                 </li>
               </ul>
-              <a href="https://www.icloud.com/shortcuts/5261ccc219b746399b567019dd95a24b" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-4 rounded-2xl font-bold text-white solid-btn transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-idl-primary/30">
+              <a href="https://www.icloud.com/shortcuts/0fae93ecea5040ddaf1ed8071c489c9d" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-4 rounded-2xl font-bold text-white solid-btn transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-idl-primary/30">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
-                <span>Tải xuống 1.2.4b</span>
+                <span>Tải xuống 1.2.5</span>
               </a>
             </div>
           </div>
 
-          <!-- Beta Version -->
           <div class="group relative">
             <div class="relative h-full p-8 rounded-3xl glass-card hover:bg-white/10 transition-all duration-300 overflow-hidden">
               <div class="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-purple-500 opacity-0 group-hover:opacity-20 blur-3xl transition-opacity duration-500"></div>
@@ -448,7 +419,6 @@
       </div>
     </section>
 
-    <!-- Changelog Section -->
     <section id="changelog" class="relative py-16 sm:py-24 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-idl-dark to-idl-darker"></div>
       <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -458,7 +428,6 @@
         </div>
 
         <div class="space-y-6">
-          <!-- Beta Version -->
           <div class="group relative p-6 rounded-2xl glass-card hover:bg-white/10 transition-all duration-300 border-l-4 border-purple-500">
             <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
               <div class="flex items-center gap-3">
@@ -488,7 +457,6 @@
             </div>
           </div>
 
-          <!-- Stable Version -->
           <div class="group relative p-6 rounded-2xl glass-card hover:bg-white/10 transition-all duration-300 border-l-4 border-idl-primary">
             <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
               <div class="flex items-center gap-3">
@@ -497,17 +465,21 @@
                 </div>
                 <div>
                   <div class="flex items-center gap-2">
-                    <h4 class="text-lg font-bold text-white">IDL 1.2.4b</h4>
+                    <h4 class="text-lg font-bold text-white">IDL 1.2.5</h4>
                     <span class="px-2 py-0.5 rounded-full text-xs font-bold solid-btn text-white">Stable</span>
                   </div>
-                  <p class="text-sm text-white/50">26/06/2025</p>
+                  <p class="text-sm text-white/50">21/03/2026</p>
                 </div>
               </div>
               <div class="flex-1">
                 <ul class="space-y-1">
                   <li class="flex items-center gap-2 text-white/70 text-sm">
                     <span class="w-1.5 h-1.5 rounded-full bg-idl-accent"></span>
-                    <span>Sửa lỗi</span>
+                    <span>Sửa lại menu để tương thích với iOS 26</span>
+                  </li>
+                  <li class="flex items-center gap-2 text-white/70 text-sm">
+                    <span class="w-1.5 h-1.5 rounded-full bg-idl-accent"></span>
+                    <span>Sửa lỗi khiến người chơi phải đợi quá lâu</span>
                   </li>
                 </ul>
               </div>
@@ -518,14 +490,12 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="relative py-12 sm:py-16 overflow-hidden bg-idl-darker">
     <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-idl-primary/5 rounded-full blur-3xl"></div>
 
     <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col items-center text-center">
-        <!-- Logo -->
         <div class="flex items-center gap-2 mb-6">
           <div class="relative">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" class="text-idl-yellow"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7zM9 21a1 1 0 0 1 1-1h4a1 1 0 0 1 0 2h-4a1 1 0 0 1-1-1z"/></svg>
@@ -534,10 +504,8 @@
           <span class="text-2xl font-black text-white">IDL</span>
         </div>
 
-        <!-- Tagline -->
         <p class="text-white/60 mb-8 max-w-md">Một trò chơi nhảm nhí giúp bạn giải trí. Được tạo ra với tình yêu và sự nhàm chán.</p>
 
-        <!-- Creator -->
         <div class="flex items-center gap-1 text-white/50 text-sm mb-8">
           <span>Made with</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#ef4444" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
