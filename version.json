@@ -1,6 +1,6 @@
 {
-"version":"125",
-"title":"Phiên bản mới khả dụng",
-"desc":"Ideal Lamp 1.2.5\n\nCó gì mới:\n- Sửa lại menu để tương thích với iOS 26\n- Sửa lỗi khiến người chơi phải đợi quá lâu.",
-"info":"IDL 1.2.5"
+    "version": "126",
+    "title": "Phiên bản mới khả dụng",
+    "desc": "Ideal Lamp 1.2.6\n\nCó gì mới:\n- Fix bug đôi khi không thể check phiên bản mới nhất.",
+    "info": "IDL 1.2.6"
 }
