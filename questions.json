@@ -1,5 +1,5 @@
 {
-  "total": 10,
+  "total": 20,
   "questions": [
     {
       "id": 1,
@@ -100,6 +100,106 @@
       "c": "Saving Private Ryan",
       "d": "Forrest Gump",
       "note": "'Shakespeare in Love' giành giải Oscar cho 'Phim hay nhất' năm 1998, đánh bại nhiều đối thủ mạnh."
+    },
+    {
+      "id": 11,
+      "type": "1",
+      "title": "Trong ngôn ngữ lập trình Python, từ khóa nào được sử dụng để định nghĩa một hàm?",
+      "a": "def",
+      "b": "function",
+      "c": "fun",
+      "d": "define",
+      "note": "Từ khóa 'def' được sử dụng chuẩn trong Python để khai báo và định nghĩa một hàm mới, giúp tái sử dụng các khối lệnh."
+    },
+    {
+      "id": 12,
+      "type": "2",
+      "title": "Trò chơi Genshin Impact trên thiết bị di động ở các phiên bản gần đây có dung lượng lưu trữ khoảng bao nhiêu GB?",
+      "a": "15 GB",
+      "b": "38 GB",
+      "c": "60 GB",
+      "d": "100 GB",
+      "note": "Dung lượng của Genshin Impact trên điện thoại hiện tại rơi vào khoảng 38 GB do chứa lượng lớn dữ liệu đồ họa, âm thanh và bản đồ thế giới mở."
+    },
+    {
+      "id": 13,
+      "type": "3",
+      "title": "Chiếc điện thoại iPhone XS của Apple được trang bị loại ống kính phụ nào ở cụm camera mặt lưng?",
+      "a": "Camera Macro",
+      "b": "Camera Góc siêu rộng (Ultrawide)",
+      "c": "Camera Telephoto",
+      "d": "Camera Tiềm vọng (Periscope)",
+      "note": "iPhone XS sở hữu cụm camera kép gồm một ống kính góc rộng tiêu chuẩn và một ống kính Telephoto hỗ trợ zoom quang học."
+    },
+    {
+      "id": 14,
+      "type": "4",
+      "title": "Trong lĩnh vực âm thanh, thiết bị DAC (Digital-to-Analog Converter) có chức năng chính là gì?",
+      "a": "Lưu trữ dữ liệu âm thanh chất lượng cao",
+      "b": "Khuếch đại tín hiệu analog cho tai nghe",
+      "c": "Lọc tiếng ồn chủ động (ANC)",
+      "d": "Chuyển đổi tín hiệu số sang tín hiệu tương tự",
+      "note": "DAC làm nhiệm vụ giải mã, chuyển đổi luồng dữ liệu số (digital) từ thiết bị nguồn thành tín hiệu âm thanh tương tự (analog) để phát ra loa hoặc tai nghe."
+    },
+    {
+      "id": 15,
+      "type": "1",
+      "title": "Tay đua Công thức 1 (F1) Max Verstappen là tay đua chủ lực của đội đua nào?",
+      "a": "Red Bull Racing",
+      "b": "Mercedes-AMG Petronas",
+      "c": "McLaren",
+      "d": "Scuderia Ferrari",
+      "note": "Max Verstappen thi đấu cho đội đua Red Bull Racing và đã giành được nhiều chức vô địch thế giới danh giá cùng đội đua này."
+    },
+    {
+      "id": 16,
+      "type": "2",
+      "title": "Công cụ nào thường được sử dụng để mở khóa (unlock) khả năng thiết lập máy ảo hệ điều hành macOS trên phần mềm VMware?",
+      "a": "Boot Camp",
+      "b": "Unlocker",
+      "c": "Clover",
+      "d": "OpenCore",
+      "note": "Unlocker là một bản vá (patch) quan trọng giúp phần mềm VMware nhận diện và cho phép chạy hệ điều hành macOS trên các phần cứng không phải của Apple."
+    },
+    {
+      "id": 17,
+      "type": "3",
+      "title": "Dòng xe máy điện VinFast Evo200 Lite được thiết kế chủ yếu hướng tới đối tượng khách hàng nào?",
+      "a": "Người đam mê tốc độ cao",
+      "b": "Dân phượt đường dài",
+      "c": "Học sinh, sinh viên",
+      "d": "Người chuyên chở hàng hóa nặng",
+      "note": "Với giới hạn tốc độ an toàn và thiết kế nhỏ gọn, hiện đại, VinFast Evo200 Lite là lựa chọn di chuyển hàng ngày rất phù hợp cho học sinh và sinh viên."
+    },
+    {
+      "id": 18,
+      "type": "4",
+      "title": "Trong toán học ứng dụng, môn học nào chuyên nghiên cứu về việc tìm giá trị lớn nhất hoặc nhỏ nhất của một hàm mục tiêu dưới các điều kiện ràng buộc?",
+      "a": "Hình học không gian",
+      "b": "Số học",
+      "c": "Xác suất thống kê",
+      "d": "Tối ưu hóa (Optimization)",
+      "note": "Tối ưu hóa (Optimization) giúp tìm ra giải pháp tốt nhất (cực đại hoặc cực tiểu) trong nhiều lĩnh vực từ kỹ thuật, khoa học máy tính đến kinh tế."
+    },
+    {
+      "id": 19,
+      "type": "1",
+      "title": "Trong ngôn ngữ lập trình C, hàm nào được sử dụng phổ biến nhất để in dữ liệu định dạng ra màn hình console?",
+      "a": "printf()",
+      "b": "cout",
+      "c": "System.out.print()",
+      "d": "console.log()",
+      "note": "Hàm printf() thuộc thư viện chuẩn stdio.h, là hàm cơ bản trong C dùng để xuất văn bản và các biến ra màn hình."
+    },
+    {
+      "id": 20,
+      "type": "2",
+      "title": "Bản ghi DNS nào được sử dụng để trỏ một tên miền (domain) tới một địa chỉ IPv4 cụ thể của máy chủ?",
+      "a": "Bản ghi CNAME",
+      "b": "Bản ghi A (A Record)",
+      "c": "Bản ghi MX",
+      "d": "Bản ghi TXT",
+      "note": "Bản ghi A (Address Record) là loại bản ghi DNS cơ bản và quan trọng nhất, dùng để liên kết trực tiếp tên miền với địa chỉ IP phiên bản 4 của hosting."
     }
   ]
 }
