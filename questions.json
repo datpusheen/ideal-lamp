@@ -1,5 +1,5 @@
 {
-  "total": 20,
+  "total": 30,
   "questions": [
     {
       "id": 1,
@@ -200,6 +200,106 @@
       "c": "Sao Chổi",
       "d": "Sao Hỏa",
       "note": "Mặt Trăng là vệ tinh tự nhiên duy nhất của Trái Đất và cũng là thiên thể gần chúng ta nhất trong hệ mặt trời."
+    },
+    {
+      "id": 21,
+      "type": "3",
+      "title": "Con sông nào được công nhận rộng rãi là dài nhất thế giới?",
+      "a": "Sông Amazon",
+      "b": "Sông Trường Giang",
+      "c": "Sông Nile",
+      "d": "Sông Mississippi",
+      "note": "Sông Nile nằm ở khu vực châu Phi là con sông dài nhất thế giới với chiều dài khoảng 6.650 km."
+    },
+    {
+      "id": 22,
+      "type": "4",
+      "title": "Bộ phận nào trên cơ thể người vẫn tiếp tục phát triển sụn và có xu hướng to ra trong suốt cuộc đời?",
+      "a": "Răng",
+      "b": "Xương sườn",
+      "c": "Tròng mắt",
+      "d": "Tai và Mũi",
+      "note": "Sụn ở tai và mũi của con người tiếp tục phát triển dần theo thời gian, khiến chúng có vẻ to ra khi chúng ta già đi."
+    },
+    {
+      "id": 23,
+      "type": "1",
+      "title": "Ký hiệu hóa học của nguyên tố Bạc (Silver) là gì?",
+      "a": "Ag",
+      "b": "Au",
+      "c": "Fe",
+      "d": "Cu",
+      "note": "Bạc có ký hiệu hóa học là Ag, bắt nguồn từ từ 'Argentum' trong tiếng Latinh."
+    },
+    {
+      "id": 24,
+      "type": "2",
+      "title": "Ai là vị tổng thống đầu tiên của Hợp chúng quốc Hoa Kỳ?",
+      "a": "Abraham Lincoln",
+      "b": "George Washington",
+      "c": "Thomas Jefferson",
+      "d": "John F. Kennedy",
+      "note": "George Washington là Tổng thống đầu tiên của Hoa Kỳ, chính thức nhậm chức vào năm 1789."
+    },
+    {
+      "id": 25,
+      "type": "3",
+      "title": "Ai là tác giả của loạt truyện kỳ ảo nổi tiếng toàn cầu 'Harry Potter'?",
+      "a": "J.R.R. Tolkien",
+      "b": "Stephen King",
+      "c": "J.K. Rowling",
+      "d": "George R.R. Martin",
+      "note": "J.K. Rowling là nhà văn người Anh, mẹ đẻ của loạt truyện phù thủy nổi tiếng toàn cầu Harry Potter."
+    },
+    {
+      "id": 26,
+      "type": "4",
+      "title": "Trong môn thể thao quần vợt (Tennis), điểm số được ghi ngay sau mức 30 là bao nhiêu?",
+      "a": "35",
+      "b": "45",
+      "c": "50",
+      "d": "40",
+      "note": "Hệ thống tính điểm của quần vợt truyền thống tiến triển theo thứ tự: 15, 30, 40 và Game (Thắng game)."
+    },
+    {
+      "id": 27,
+      "type": "1",
+      "title": "Hằng số Pi (π) trong toán học có giá trị làm tròn xấp xỉ bằng bao nhiêu?",
+      "a": "3.14",
+      "b": "3.41",
+      "c": "2.14",
+      "d": "4.13",
+      "note": "Pi là một hằng số toán học có giá trị bằng tỷ số giữa chu vi của một đường tròn với đường kính của đường tròn đó, thường được làm tròn thành 3.14."
+    },
+    {
+      "id": 28,
+      "type": "2",
+      "title": "Thủ đô của đất nước Nhật Bản hiện nay là thành phố nào?",
+      "a": "Kyoto",
+      "b": "Tokyo",
+      "c": "Osaka",
+      "d": "Hokkaido",
+      "note": "Tokyo là thủ đô, đồng thời là trung tâm hành chính, kinh tế và văn hóa lớn nhất của Nhật Bản."
+    },
+    {
+      "id": 29,
+      "type": "3",
+      "title": "Nhạc sĩ vĩ đại người Đức Ludwig van Beethoven bị mắc phải khiếm khuyết giác quan nào trong những năm tháng cuối đời?",
+      "a": "Mù lòa (mất thị giác)",
+      "b": "Mất vị giác",
+      "c": "Điếc (mất thính giác)",
+      "d": "Tê liệt xúc giác",
+      "note": "Beethoven bắt đầu suy giảm thính lực từ độ tuổi 20 và bị điếc hoàn toàn trong những năm cuối đời, nhưng ông vẫn để lại cho nhân loại những bản giao hưởng bất hủ."
+    },
+    {
+      "id": 30,
+      "type": "4",
+      "title": "Đâu là loài chim có kích thước lớn nhất trên Trái Đất hiện nay nhưng lại không biết bay?",
+      "a": "Chim cánh cụt",
+      "b": "Đại bàng",
+      "c": "Chim thiên nga",
+      "d": "Đà điểu",
+      "note": "Đà điểu châu Phi là loài chim sống lớn nhất thế giới. Dù có cánh nhưng chúng không thể bay mà thay vào đó có khả năng chạy bộ cực kỳ nhanh."
     }
   ]
 }
