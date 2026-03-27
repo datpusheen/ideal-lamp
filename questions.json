@@ -1,5 +1,5 @@
 {
-  "total": 30,
+  "total": 40,
   "questions": [
     {
       "id": 1,
@@ -300,6 +300,106 @@
       "c": "Chim thiên nga",
       "d": "Đà điểu",
       "note": "Đà điểu châu Phi là loài chim sống lớn nhất thế giới. Dù có cánh nhưng chúng không thể bay mà thay vào đó có khả năng chạy bộ cực kỳ nhanh."
+    },
+    {
+      "id": 31,
+      "type": "1",
+      "title": "Quốc gia nào được công nhận là quốc gia độc lập nhỏ nhất thế giới về diện tích?",
+      "a": "Thành Vatican",
+      "b": "Monaco",
+      "c": "Nauru",
+      "d": "Tuvalu",
+      "note": "Thành Vatican (Vatican City) nằm gọn trong lòng thủ đô Rome của Ý, là quốc gia nhỏ nhất thế giới với diện tích chỉ khoảng 0.44 km²."
+    },
+    {
+      "id": 32,
+      "type": "2",
+      "title": "Trong Hệ Mặt Trời, hành tinh nào nằm gần Mặt Trời nhất?",
+      "a": "Sao Kim",
+      "b": "Sao Thủy",
+      "c": "Trái Đất",
+      "d": "Sao Hỏa",
+      "note": "Sao Thủy (Mercury) là hành tinh nhỏ nhất và nằm ở vị trí gần Mặt Trời nhất, thời gian hoàn thành một vòng quỹ đạo của nó chỉ mất khoảng 88 ngày."
+    },
+    {
+      "id": 33,
+      "type": "3",
+      "title": "Chiến tranh thế giới thứ hai chính thức kết thúc vào năm nào?",
+      "a": "1918",
+      "b": "1939",
+      "c": "1945",
+      "d": "1954",
+      "note": "Chiến tranh thế giới thứ hai kết thúc vào năm 1945 sau khi phe Trục (đứng đầu là phát xít Đức, Ý, Nhật) tuyên bố đầu hàng."
+    },
+    {
+      "id": 34,
+      "type": "4",
+      "title": "Kiệt tác điêu khắc 'Tượng David' thời kỳ Phục hưng là tác phẩm của nghệ sĩ nào?",
+      "a": "Donatello",
+      "b": "Raphael",
+      "c": "Leonardo da Vinci",
+      "d": "Michelangelo",
+      "note": "Tượng David bằng đá cẩm thạch trắng là một trong những kiệt tác điêu khắc nổi tiếng nhất mọi thời đại do Michelangelo thực hiện vào đầu thế kỷ 16."
+    },
+    {
+      "id": 35,
+      "type": "1",
+      "title": "Trong toán học, số nguyên tố chẵn duy nhất là số nào?",
+      "a": "2",
+      "b": "4",
+      "c": "0",
+      "d": "6",
+      "note": "Số 2 là số nguyên tố chẵn duy nhất vì nó chỉ chia hết cho 1 và chính nó. Mọi số chẵn lớn hơn 2 đều chia hết cho 2 nên không phải số nguyên tố."
+    },
+    {
+      "id": 36,
+      "type": "2",
+      "title": "Huyền thoại bóng đá nào sau đây được thế giới xưng tụng với biệt danh 'Vua bóng đá'?",
+      "a": "Diego Maradona",
+      "b": "Pelé",
+      "c": "Lionel Messi",
+      "d": "Cristiano Ronaldo",
+      "note": "Edson Arantes do Nascimento, được biết đến rộng rãi với tên Pelé, là huyền thoại người Brazil được FIFA và người hâm mộ vinh danh là Vua bóng đá."
+    },
+    {
+      "id": 37,
+      "type": "3",
+      "title": "Trong câu chuyện cổ tích Grimm, nàng Bạch Tuyết đã bị mụ dì ghẻ lừa ăn loại quả có tẩm thuốc độc nào?",
+      "a": "Đào",
+      "b": "Lê",
+      "c": "Táo",
+      "d": "Nho",
+      "note": "Hoàng hậu độc ác đã cải trang thành một bà lão nông dân và lừa Bạch Tuyết cắn một miếng từ quả táo có tẩm thuốc độc chết người."
+    },
+    {
+      "id": 38,
+      "type": "4",
+      "title": "Các loài động vật thuộc lớp Côn trùng (ví dụ: kiến, ruồi, muỗi, ong) có đặc trưng cơ bản là có bao nhiêu chân?",
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "6",
+      "note": "Đặc điểm sinh học nổi bật của lớp côn trùng là cơ thể chúng được chia làm 3 phần (đầu, ngực, bụng) và luôn có 3 đôi chân (tức là 6 chân)."
+    },
+    {
+      "id": 39,
+      "type": "1",
+      "title": "Vận tốc ánh sáng truyền trong môi trường chân không xấp xỉ bằng bao nhiêu km/s?",
+      "a": "300.000 km/s",
+      "b": "150.000 km/s",
+      "c": "30.000 km/s",
+      "d": "3.000.000 km/s",
+      "note": "Ánh sáng di chuyển trong chân không với tốc độ cực nhanh, xấp xỉ 299.792 km/s, thường được làm tròn thành 300.000 km/s trong các bài toán vật lý phổ thông."
+    },
+    {
+      "id": 40,
+      "type": "2",
+      "title": "Sushi, món ăn nổi tiếng bao gồm cơm trộn giấm kết hợp với hải sản tươi sống, có nguồn gốc từ quốc gia nào?",
+      "a": "Hàn Quốc",
+      "b": "Nhật Bản",
+      "c": "Trung Quốc",
+      "d": "Thái Lan",
+      "note": "Sushi là biểu tượng ẩm thực truyền thống nổi tiếng thế giới của đất nước mặt trời mọc - Nhật Bản."
     }
   ]
 }
