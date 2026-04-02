@@ -1,6 +1,6 @@
 {
-    "version": "126",
+    "version": "130",
     "title": "Đã có phiên bản mới hơn!",
-    "desc": "Ideal Lamp 1.2.6\n\nCó gì mới:\n- Fix bug đôi khi không thể check phiên bản mới nhất.",
-    "info": "IDL 1.2.6"
+    "desc": "Ideal Lamp 1.3\n\nCó gì mới:\n- Hệ thống viết lại hoàn toàn, tự động cập nhật câu hỏi.\n- Thêm tính năng tính điểm.\n- Hỗ trợ tạo nguồn câu hỏi tùy chỉnh.",
+    "info": "IDL 1.3"
 }
