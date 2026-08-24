@@ -1,5 +1,5 @@
 {
-  "total": 10,
+  "total": 100,
   "questions": [
     {
       "id": 1,
@@ -100,6 +100,906 @@
       "c": "Saving Private Ryan",
       "d": "Forrest Gump",
       "note": "'Shakespeare in Love' giành giải Oscar cho 'Phim hay nhất' năm 1998, đánh bại nhiều đối thủ mạnh."
+    },
+    {
+      "id": 11,
+      "type": "1",
+      "title": "Vị vua nào của Việt Nam đã quyết định dời đô từ Hoa Lư về Thăng Long?",
+      "a": "Lý Thái Tổ",
+      "b": "Lê Thái Tổ",
+      "c": "Trần Nhân Tông",
+      "d": "Đinh Tiên Hoàng",
+      "note": "Năm 1010, vua Lý Thái Tổ (Lý Công Uẩn) đã ban 'Chiếu dời đô', quyết định chuyển kinh đô từ Hoa Lư (Ninh Bình) về thành Đại La và đổi tên thành Thăng Long."
+    },
+    {
+      "id": 12,
+      "type": "2",
+      "title": "Đỉnh núi nào được mệnh danh là nóc nhà của thế giới với độ cao lớn nhất so với mực nước biển?",
+      "a": "Đỉnh K2",
+      "b": "Đỉnh Everest",
+      "c": "Đỉnh Fansipan",
+      "d": "Đỉnh Phú Sĩ",
+      "note": "Đỉnh Everest thuộc dãy Himalaya, nằm giữa biên giới Nepal và Trung Quốc, là đỉnh núi cao nhất thế giới (khoảng 8.848 mét)."
+    },
+    {
+      "id": 13,
+      "type": "3",
+      "title": "Trong thực vật học, bộ phận nào của cây đảm nhận vai trò chính trong quá trình quang hợp?",
+      "a": "Rễ",
+      "b": "Thân",
+      "c": "Lá",
+      "d": "Hoa",
+      "note": "Lá cây chứa nhiều chất diệp lục (chlorophyll) giúp hấp thụ ánh sáng mặt trời để thực hiện quá trình quang hợp, tạo ra chất hữu cơ nuôi cây."
+    },
+    {
+      "id": 14,
+      "type": "4",
+      "title": "Tác phẩm truyện thơ Nôm nổi tiếng 'Truyện Kiều' (Đoạn trường tân thanh) là do ai sáng tác?",
+      "a": "Nam Cao",
+      "b": "Nguyễn Trãi",
+      "c": "Hồ Xuân Hương",
+      "d": "Nguyễn Du",
+      "note": "Đại thi hào Nguyễn Du là người đã sáng tác 'Truyện Kiều', một trong những kiệt tác văn học vĩ đại nhất của Việt Nam."
+    },
+    {
+      "id": 15,
+      "type": "1",
+      "title": "Ở điều kiện áp suất tiêu chuẩn (1 atm), nước tinh khiết sôi ở nhiệt độ bao nhiêu?",
+      "a": "100°C",
+      "b": "90°C",
+      "c": "0°C",
+      "d": "120°C",
+      "note": "Ở áp suất khí quyển tiêu chuẩn (khoảng ngang mực nước biển), nước tinh khiết sẽ sôi và chuyển sang thể khí ở 100 độ C."
+    },
+    {
+      "id": 16,
+      "type": "2",
+      "title": "Giải vô địch bóng đá thế giới (FIFA World Cup) dành cho nam được tổ chức định kỳ bao nhiêu năm một lần?",
+      "a": "2 năm",
+      "b": "4 năm",
+      "c": "5 năm",
+      "d": "10 năm",
+      "note": "FIFA World Cup được tổ chức đều đặn 4 năm một lần kể từ kỳ giải đầu tiên vào năm 1930 (ngoại trừ thời gian gián đoạn do Chiến tranh Thế giới thứ hai)."
+    },
+    {
+      "id": 17,
+      "type": "3",
+      "title": "Bức tranh chân dung nổi tiếng 'Mona Lisa' là kiệt tác của danh họa nào?",
+      "a": "Vincent van Gogh",
+      "b": "Pablo Picasso",
+      "c": "Leonardo da Vinci",
+      "d": "Claude Monet",
+      "note": "Leonardo da Vinci, nhà thông thái thời Phục hưng người Ý, là người đã vẽ bức họa Mona Lisa vào khoảng đầu thế kỷ 16."
+    },
+    {
+      "id": 18,
+      "type": "4",
+      "title": "Loại khí nào chiếm tỉ lệ thể tích lớn nhất trong bầu khí quyển của Trái Đất?",
+      "a": "Oxy",
+      "b": "Carbon dioxide (CO2)",
+      "c": "Hydrogen",
+      "d": "Nitơ",
+      "note": "Khí Nitơ chiếm khoảng 78% thể tích không khí, nhiều hơn hẳn so với Oxy (khoảng 21%) và các loại khí khác."
+    },
+    {
+      "id": 19,
+      "type": "1",
+      "title": "Nhạc cụ nào sau đây thuộc họ đàn phím (keyboard instruments)?",
+      "a": "Piano",
+      "b": "Guitar",
+      "c": "Trống",
+      "d": "Sáo",
+      "note": "Piano (đàn dương cầm) hoạt động dựa trên cơ chế gõ vào dây đàn thông qua hệ thống phím bấm nên được xếp vào nhóm nhạc cụ có phím."
+    },
+    {
+      "id": 20,
+      "type": "2",
+      "title": "Vệ tinh tự nhiên duy nhất xoay quanh Trái Đất là gì?",
+      "a": "Sao Kim",
+      "b": "Mặt Trăng",
+      "c": "Sao Chổi",
+      "d": "Sao Hỏa",
+      "note": "Mặt Trăng là vệ tinh tự nhiên duy nhất của Trái Đất và cũng là thiên thể gần chúng ta nhất trong hệ mặt trời."
+    },
+    {
+      "id": 21,
+      "type": "3",
+      "title": "Con sông nào được công nhận rộng rãi là dài nhất thế giới?",
+      "a": "Sông Amazon",
+      "b": "Sông Trường Giang",
+      "c": "Sông Nile",
+      "d": "Sông Mississippi",
+      "note": "Sông Nile nằm ở khu vực châu Phi là con sông dài nhất thế giới với chiều dài khoảng 6.650 km."
+    },
+    {
+      "id": 22,
+      "type": "4",
+      "title": "Bộ phận nào trên cơ thể người vẫn tiếp tục phát triển sụn và có xu hướng to ra trong suốt cuộc đời?",
+      "a": "Răng",
+      "b": "Xương sườn",
+      "c": "Tròng mắt",
+      "d": "Tai và Mũi",
+      "note": "Sụn ở tai và mũi của con người tiếp tục phát triển dần theo thời gian, khiến chúng có vẻ to ra khi chúng ta già đi."
+    },
+    {
+      "id": 23,
+      "type": "1",
+      "title": "Ký hiệu hóa học của nguyên tố Bạc (Silver) là gì?",
+      "a": "Ag",
+      "b": "Au",
+      "c": "Fe",
+      "d": "Cu",
+      "note": "Bạc có ký hiệu hóa học là Ag, bắt nguồn từ từ 'Argentum' trong tiếng Latinh."
+    },
+    {
+      "id": 24,
+      "type": "2",
+      "title": "Ai là vị tổng thống đầu tiên của Hợp chúng quốc Hoa Kỳ?",
+      "a": "Abraham Lincoln",
+      "b": "George Washington",
+      "c": "Thomas Jefferson",
+      "d": "John F. Kennedy",
+      "note": "George Washington là Tổng thống đầu tiên của Hoa Kỳ, chính thức nhậm chức vào năm 1789."
+    },
+    {
+      "id": 25,
+      "type": "3",
+      "title": "Ai là tác giả của loạt truyện kỳ ảo nổi tiếng toàn cầu 'Harry Potter'?",
+      "a": "J.R.R. Tolkien",
+      "b": "Stephen King",
+      "c": "J.K. Rowling",
+      "d": "George R.R. Martin",
+      "note": "J.K. Rowling là nhà văn người Anh, mẹ đẻ của loạt truyện phù thủy nổi tiếng toàn cầu Harry Potter."
+    },
+    {
+      "id": 26,
+      "type": "4",
+      "title": "Trong môn thể thao quần vợt (Tennis), điểm số được ghi ngay sau mức 30 là bao nhiêu?",
+      "a": "35",
+      "b": "45",
+      "c": "50",
+      "d": "40",
+      "note": "Hệ thống tính điểm của quần vợt truyền thống tiến triển theo thứ tự: 15, 30, 40 và Game (Thắng game)."
+    },
+    {
+      "id": 27,
+      "type": "1",
+      "title": "Hằng số Pi (π) trong toán học có giá trị làm tròn xấp xỉ bằng bao nhiêu?",
+      "a": "3.14",
+      "b": "3.41",
+      "c": "2.14",
+      "d": "4.13",
+      "note": "Pi là một hằng số toán học có giá trị bằng tỷ số giữa chu vi của một đường tròn với đường kính của đường tròn đó, thường được làm tròn thành 3.14."
+    },
+    {
+      "id": 28,
+      "type": "2",
+      "title": "Thủ đô của đất nước Nhật Bản hiện nay là thành phố nào?",
+      "a": "Kyoto",
+      "b": "Tokyo",
+      "c": "Osaka",
+      "d": "Hokkaido",
+      "note": "Tokyo là thủ đô, đồng thời là trung tâm hành chính, kinh tế và văn hóa lớn nhất của Nhật Bản."
+    },
+    {
+      "id": 29,
+      "type": "3",
+      "title": "Nhạc sĩ vĩ đại người Đức Ludwig van Beethoven bị mắc phải khiếm khuyết giác quan nào trong những năm tháng cuối đời?",
+      "a": "Mù lòa (mất thị giác)",
+      "b": "Mất vị giác",
+      "c": "Điếc (mất thính giác)",
+      "d": "Tê liệt xúc giác",
+      "note": "Beethoven bắt đầu suy giảm thính lực từ độ tuổi 20 và bị điếc hoàn toàn trong những năm cuối đời, nhưng ông vẫn để lại cho nhân loại những bản giao hưởng bất hủ."
+    },
+    {
+      "id": 30,
+      "type": "4",
+      "title": "Đâu là loài chim có kích thước lớn nhất trên Trái Đất hiện nay nhưng lại không biết bay?",
+      "a": "Chim cánh cụt",
+      "b": "Đại bàng",
+      "c": "Chim thiên nga",
+      "d": "Đà điểu",
+      "note": "Đà điểu châu Phi là loài chim sống lớn nhất thế giới. Dù có cánh nhưng chúng không thể bay mà thay vào đó có khả năng chạy bộ cực kỳ nhanh."
+    },
+    {
+      "id": 31,
+      "type": "1",
+      "title": "Quốc gia nào được công nhận là quốc gia độc lập nhỏ nhất thế giới về diện tích?",
+      "a": "Thành Vatican",
+      "b": "Monaco",
+      "c": "Nauru",
+      "d": "Tuvalu",
+      "note": "Thành Vatican (Vatican City) nằm gọn trong lòng thủ đô Rome của Ý, là quốc gia nhỏ nhất thế giới với diện tích chỉ khoảng 0.44 km²."
+    },
+    {
+      "id": 32,
+      "type": "2",
+      "title": "Trong Hệ Mặt Trời, hành tinh nào nằm gần Mặt Trời nhất?",
+      "a": "Sao Kim",
+      "b": "Sao Thủy",
+      "c": "Trái Đất",
+      "d": "Sao Hỏa",
+      "note": "Sao Thủy (Mercury) là hành tinh nhỏ nhất và nằm ở vị trí gần Mặt Trời nhất, thời gian hoàn thành một vòng quỹ đạo của nó chỉ mất khoảng 88 ngày."
+    },
+    {
+      "id": 33,
+      "type": "3",
+      "title": "Chiến tranh thế giới thứ hai chính thức kết thúc vào năm nào?",
+      "a": "1918",
+      "b": "1939",
+      "c": "1945",
+      "d": "1954",
+      "note": "Chiến tranh thế giới thứ hai kết thúc vào năm 1945 sau khi phe Trục (đứng đầu là phát xít Đức, Ý, Nhật) tuyên bố đầu hàng."
+    },
+    {
+      "id": 34,
+      "type": "4",
+      "title": "Kiệt tác điêu khắc 'Tượng David' thời kỳ Phục hưng là tác phẩm của nghệ sĩ nào?",
+      "a": "Donatello",
+      "b": "Raphael",
+      "c": "Leonardo da Vinci",
+      "d": "Michelangelo",
+      "note": "Tượng David bằng đá cẩm thạch trắng là một trong những kiệt tác điêu khắc nổi tiếng nhất mọi thời đại do Michelangelo thực hiện vào đầu thế kỷ 16."
+    },
+    {
+      "id": 35,
+      "type": "1",
+      "title": "Trong toán học, số nguyên tố chẵn duy nhất là số nào?",
+      "a": "2",
+      "b": "4",
+      "c": "0",
+      "d": "6",
+      "note": "Số 2 là số nguyên tố chẵn duy nhất vì nó chỉ chia hết cho 1 và chính nó. Mọi số chẵn lớn hơn 2 đều chia hết cho 2 nên không phải số nguyên tố."
+    },
+    {
+      "id": 36,
+      "type": "2",
+      "title": "Huyền thoại bóng đá nào sau đây được thế giới xưng tụng với biệt danh 'Vua bóng đá'?",
+      "a": "Diego Maradona",
+      "b": "Pelé",
+      "c": "Lionel Messi",
+      "d": "Cristiano Ronaldo",
+      "note": "Edson Arantes do Nascimento, được biết đến rộng rãi với tên Pelé, là huyền thoại người Brazil được FIFA và người hâm mộ vinh danh là Vua bóng đá."
+    },
+    {
+      "id": 37,
+      "type": "3",
+      "title": "Trong câu chuyện cổ tích Grimm, nàng Bạch Tuyết đã bị mụ dì ghẻ lừa ăn loại quả có tẩm thuốc độc nào?",
+      "a": "Đào",
+      "b": "Lê",
+      "c": "Táo",
+      "d": "Nho",
+      "note": "Hoàng hậu độc ác đã cải trang thành một bà lão nông dân và lừa Bạch Tuyết cắn một miếng từ quả táo có tẩm thuốc độc chết người."
+    },
+    {
+      "id": 38,
+      "type": "4",
+      "title": "Các loài động vật thuộc lớp Côn trùng (ví dụ: kiến, ruồi, muỗi, ong) có đặc trưng cơ bản là có bao nhiêu chân?",
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "6",
+      "note": "Đặc điểm sinh học nổi bật của lớp côn trùng là cơ thể chúng được chia làm 3 phần (đầu, ngực, bụng) và luôn có 3 đôi chân (tức là 6 chân)."
+    },
+    {
+      "id": 39,
+      "type": "1",
+      "title": "Vận tốc ánh sáng truyền trong môi trường chân không xấp xỉ bằng bao nhiêu km/s?",
+      "a": "300.000 km/s",
+      "b": "150.000 km/s",
+      "c": "30.000 km/s",
+      "d": "3.000.000 km/s",
+      "note": "Ánh sáng di chuyển trong chân không với tốc độ cực nhanh, xấp xỉ 299.792 km/s, thường được làm tròn thành 300.000 km/s trong các bài toán vật lý phổ thông."
+    },
+    {
+      "id": 40,
+      "type": "2",
+      "title": "Sushi, món ăn nổi tiếng bao gồm cơm trộn giấm kết hợp với hải sản tươi sống, có nguồn gốc từ quốc gia nào?",
+      "a": "Hàn Quốc",
+      "b": "Nhật Bản",
+      "c": "Trung Quốc",
+      "d": "Thái Lan",
+      "note": "Sushi là biểu tượng ẩm thực truyền thống nổi tiếng thế giới của đất nước mặt trời mọc - Nhật Bản."
+    },
+    {
+      "id": 41,
+      "type": "1",
+      "title": "Thủ đô của nước Pháp là thành phố nào?",
+      "a": "Paris",
+      "b": "Lyon",
+      "c": "Marseille",
+      "d": "Nice",
+      "note": "Paris không chỉ là thủ đô mà còn là trung tâm văn hóa, kinh tế, thời trang lớn nhất của nước Pháp."
+    },
+    {
+      "id": 42,
+      "type": "2",
+      "title": "Đâu là loài động vật trên cạn chạy nhanh nhất thế giới?",
+      "a": "Sư tử",
+      "b": "Báo đốm (Cheetah)",
+      "c": "Ngựa vằn",
+      "d": "Linh dương",
+      "note": "Báo đốm (Cheetah) có thể đạt tốc độ nước rút lên tới 100-120 km/h chỉ trong vài giây."
+    },
+    {
+      "id": 43,
+      "type": "3",
+      "title": "Họa sĩ nào là tác giả của bức tranh nổi tiếng 'Đêm đầy sao' (The Starry Night)?",
+      "a": "Pablo Picasso",
+      "b": "Leonardo da Vinci",
+      "c": "Vincent van Gogh",
+      "d": "Claude Monet",
+      "note": "Vincent van Gogh đã vẽ bức tranh kiệt tác 'Đêm đầy sao' vào năm 1889 trong thời gian ông điều trị tại nhà thương điên."
+    },
+    {
+      "id": 44,
+      "type": "4",
+      "title": "Khí nào thực vật hấp thụ vào ban ngày để thực hiện quá trình quang hợp?",
+      "a": "Oxy",
+      "b": "Nitơ",
+      "c": "Hydro",
+      "d": "Carbon dioxide (CO2)",
+      "note": "Thực vật hấp thụ khí CO2 và ánh sáng mặt trời để tạo ra chất hữu cơ nuôi cây, đồng thời nhả ra khí Oxy."
+    },
+    {
+      "id": 45,
+      "type": "1",
+      "title": "Đại dương nào có diện tích lớn nhất trên Trái Đất?",
+      "a": "Thái Bình Dương",
+      "b": "Đại Tây Dương",
+      "c": "Ấn Độ Dương",
+      "d": "Bắc Băng Dương",
+      "note": "Thái Bình Dương là đại dương lớn nhất và sâu nhất, chiếm khoảng 1/3 diện tích bề mặt Trái Đất."
+    },
+    {
+      "id": 46,
+      "type": "2",
+      "title": "Phi hành gia nào là người đầu tiên đặt chân lên Mặt Trăng?",
+      "a": "Yuri Gagarin",
+      "b": "Neil Armstrong",
+      "c": "Buzz Aldrin",
+      "d": "Michael Collins",
+      "note": "Ngày 20/7/1969, Neil Armstrong bước xuống bề mặt Mặt Trăng và để lại câu nói lịch sử về bước tiến của nhân loại."
+    },
+    {
+      "id": 47,
+      "type": "3",
+      "title": "Quần thể kim tự tháp Giza nổi tiếng nằm ở quốc gia nào?",
+      "a": "Mexico",
+      "b": "Peru",
+      "c": "Ai Cập",
+      "d": "Iraq",
+      "note": "Đại kim tự tháp Giza nằm ở ngoại ô thủ đô Cairo, Ai Cập, là một trong Bảy kỳ quan thế giới cổ đại còn tồn tại."
+    },
+    {
+      "id": 48,
+      "type": "4",
+      "title": "Ngôn ngữ nào được sử dụng phổ biến nhất trên thế giới hiện nay (tính cả người bản ngữ và người học ngôn ngữ thứ hai)?",
+      "a": "Tiếng Tây Ban Nha",
+      "b": "Tiếng Hindi",
+      "c": "Tiếng Quan Thoại",
+      "d": "Tiếng Anh",
+      "note": "Tiếng Anh là ngôn ngữ giao tiếp quốc tế phổ biến nhất thế giới trong nhiều lĩnh vực từ kinh tế đến khoa học."
+    },
+    {
+      "id": 49,
+      "type": "1",
+      "title": "Tác phẩm truyện ngắn 'Lão Hạc' là sáng tác của nhà văn nào?",
+      "a": "Nam Cao",
+      "b": "Ngô Tất Tố",
+      "c": "Vũ Trọng Phụng",
+      "d": "Nguyên Hồng",
+      "note": "Nam Cao là một nhà văn hiện thực xuất sắc, ông viết tác phẩm 'Lão Hạc' phản ánh chân thực số phận người nông dân nghèo trước Cách mạng."
+    },
+    {
+      "id": 50,
+      "type": "2",
+      "title": "Cơ quan nào trong cơ thể người có chức năng chính là lọc máu và tạo ra nước tiểu?",
+      "a": "Gan",
+      "b": "Thận",
+      "c": "Dạ dày",
+      "d": "Phổi",
+      "note": "Thận đóng vai trò quan trọng trong hệ bài tiết, giúp lọc các chất thải độc hại từ máu để đào thải ra ngoài."
+    },
+    {
+      "id": 51,
+      "type": "1",
+      "title": "Ký hiệu hóa học của nguyên tố Vàng (Gold) là gì?",
+      "a": "Au",
+      "b": "Ag",
+      "c": "Fe",
+      "d": "Hg",
+      "note": "Vàng có ký hiệu hóa học là Au, bắt nguồn từ chữ 'Aurum' trong tiếng Latinh có nghĩa là bình minh rực rỡ."
+    },
+    {
+      "id": 52,
+      "type": "2",
+      "title": "Loài hoa nào thường được coi là quốc hoa biểu tượng của đất nước Nhật Bản?",
+      "a": "Hoa hồng",
+      "b": "Hoa anh đào",
+      "c": "Hoa sen",
+      "d": "Hoa cúc",
+      "note": "Hoa anh đào (Sakura) là biểu tượng văn hóa sâu sắc của Nhật Bản, tượng trưng cho vẻ đẹp tinh khiết và sự mong manh."
+    },
+    {
+      "id": 53,
+      "type": "3",
+      "title": "Châu lục nào được ghi nhận là nơi lạnh nhất trên Trái Đất?",
+      "a": "Châu Á",
+      "b": "Châu Âu",
+      "c": "Nam Cực",
+      "d": "Bắc Mỹ",
+      "note": "Nam Cực là lục địa phủ băng quanh năm, khô nhất, nhiều gió nhất và có nhiệt độ thấp nhất trên hành tinh."
+    },
+    {
+      "id": 54,
+      "type": "4",
+      "title": "Ai là nhà khoa học đã đề xướng ra Thuyết tiến hóa thông qua chọn lọc tự nhiên?",
+      "a": "Isaac Newton",
+      "b": "Albert Einstein",
+      "c": "Galileo Galilei",
+      "d": "Charles Darwin",
+      "note": "Charles Darwin công bố thuyết tiến hóa trong cuốn sách 'Nguồn gốc các loài' vào năm 1859, làm nền tảng cho sinh học hiện đại."
+    },
+    {
+      "id": 55,
+      "type": "1",
+      "title": "Đất nước nào ở châu Âu có hình dáng lãnh thổ nhìn giống như một chiếc ủng?",
+      "a": "Ý (Italy)",
+      "b": "Pháp",
+      "c": "Tây Ban Nha",
+      "d": "Hy Lạp",
+      "note": "Bán đảo Ý vươn ra biển Địa Trung Hải có hình dáng rất đặc trưng, thường được ví như một chiếc ủng khổng lồ."
+    },
+    {
+      "id": 56,
+      "type": "2",
+      "title": "Thế vận hội Mùa hè Olympic năm 2024 được tổ chức tại thành phố nào?",
+      "a": "Tokyo",
+      "b": "Paris",
+      "c": "London",
+      "d": "Los Angeles",
+      "note": "Thủ đô Paris của nước Pháp vinh dự là chủ nhà của kỳ Thế vận hội Mùa hè Olympic 2024."
+    },
+    {
+      "id": 57,
+      "type": "3",
+      "title": "Đơn vị tiền tệ chính thức của Vương quốc Anh là gì?",
+      "a": "Euro",
+      "b": "Đô la Mỹ (USD)",
+      "c": "Bảng Anh (GBP)",
+      "d": "Yên Nhật",
+      "note": "Bảng Anh là đồng tiền chính thức của Vương quốc Liên hiệp Anh và Bắc Ireland."
+    },
+    {
+      "id": 58,
+      "type": "4",
+      "title": "Vở bi kịch lãng mạn nổi tiếng 'Romeo và Juliet' là tác phẩm của nhà văn nào?",
+      "a": "Charles Dickens",
+      "b": "Mark Twain",
+      "c": "Victor Hugo",
+      "d": "William Shakespeare",
+      "note": "William Shakespeare, nhà văn vĩ đại người Anh, là người đã chắp bút nên câu chuyện tình bất hủ này."
+    },
+    {
+      "id": 59,
+      "type": "1",
+      "title": "Quốc gia nào hiện có dân số đông nhất thế giới (dữ liệu cập nhật sau năm 2023)?",
+      "a": "Ấn Độ",
+      "b": "Trung Quốc",
+      "c": "Hoa Kỳ",
+      "d": "Indonesia",
+      "note": "Theo số liệu của Liên Hợp Quốc, Ấn Độ đã chính thức vượt qua Trung Quốc để trở thành quốc gia đông dân nhất thế giới."
+    },
+    {
+      "id": 60,
+      "type": "2",
+      "title": "Châu lục nào có diện tích lớn nhất và dân số đông nhất thế giới?",
+      "a": "Châu Phi",
+      "b": "Châu Á",
+      "c": "Châu Âu",
+      "d": "Châu Mỹ",
+      "note": "Châu Á là lục địa chiếm tới 30% diện tích đất liền và sở hữu dân số lớn nhất trên Trái Đất."
+    },
+    {
+      "id": 61,
+      "type": "3",
+      "title": "Trong hệ thống số La Mã, ký hiệu 'X' tương ứng với giá trị số thập phân nào?",
+      "a": "5",
+      "b": "15",
+      "c": "10",
+      "d": "50",
+      "note": "Số La Mã X biểu thị cho số 10. (V là 5, L là 50, C là 100)."
+    },
+    {
+      "id": 62,
+      "type": "4",
+      "title": "Hành tinh nào trong Hệ Mặt Trời thường được gọi là 'Hành tinh đỏ'?",
+      "a": "Sao Mộc",
+      "b": "Sao Thổ",
+      "c": "Sao Kim",
+      "d": "Sao Hỏa",
+      "note": "Sao Hỏa (Mars) có màu đỏ đặc trưng khi nhìn từ xa do bề mặt chứa nhiều oxit sắt (rỉ sét)."
+    },
+    {
+      "id": 63,
+      "type": "1",
+      "title": "Trái tim của một con người bình thường được cấu tạo với bao nhiêu ngăn?",
+      "a": "4 ngăn",
+      "b": "3 ngăn",
+      "c": "2 ngăn",
+      "d": "5 ngăn",
+      "note": "Trái tim người chia làm 4 ngăn: tâm nhĩ trái, tâm nhĩ phải, tâm thất trái và tâm thất phải."
+    },
+    {
+      "id": 64,
+      "type": "2",
+      "title": "Tên khai sinh lúc còn nhỏ của Chủ tịch Hồ Chí Minh là gì?",
+      "a": "Nguyễn Tất Thành",
+      "b": "Nguyễn Sinh Cung",
+      "c": "Nguyễn Ái Quốc",
+      "d": "Văn Ba",
+      "note": "Lúc nhỏ, Chủ tịch Hồ Chí Minh mang tên là Nguyễn Sinh Cung. Nguyễn Tất Thành là tên khi Người bắt đầu lớn lên và đi học."
+    },
+    {
+      "id": 65,
+      "type": "3",
+      "title": "Châu Úc (thuộc Châu Đại Dương) nổi tiếng là quê hương của loài động vật có túi nào?",
+      "a": "Hổ",
+      "b": "Voi",
+      "c": "Kangaroo",
+      "d": "Sư tử",
+      "note": "Kangaroo (chuột túi) là loài động vật biểu tượng và có số lượng đông đảo sống tại lục địa Úc."
+    },
+    {
+      "id": 66,
+      "type": "4",
+      "title": "Đỉnh núi nào được mệnh danh là ngọn núi cao nhất Việt Nam?",
+      "a": "Pu Ta Leng",
+      "b": "Ngọc Linh",
+      "c": "Bạch Mã",
+      "d": "Fansipan",
+      "note": "Đỉnh Fansipan nằm ở dãy Hoàng Liên Sơn, với độ cao hơn 3.143 mét, được mệnh danh là 'Nóc nhà Đông Dương'."
+    },
+    {
+      "id": 67,
+      "type": "1",
+      "title": "Thủ đô của đất nước Thái Lan là gì?",
+      "a": "Bangkok",
+      "b": "Manila",
+      "c": "Jakarta",
+      "d": "Kuala Lumpur",
+      "note": "Bangkok là thủ đô sầm uất và nổi tiếng với những ngôi chùa vàng rực rỡ của Thái Lan."
+    },
+    {
+      "id": 68,
+      "type": "2",
+      "title": "Trong y học, nhóm máu nào được gọi là nhóm máu 'chuyên cho' (có thể hiến cho mọi nhóm máu khác)?",
+      "a": "Nhóm máu AB",
+      "b": "Nhóm máu O",
+      "c": "Nhóm máu A",
+      "d": "Nhóm máu B",
+      "note": "Nhóm máu O (đặc biệt là O-) không có kháng nguyên A hay B trên hồng cầu, nên có thể truyền máu an toàn cho các nhóm máu khác."
+    },
+    {
+      "id": 69,
+      "type": "3",
+      "title": "Dụng cụ dùng để đo áp suất của khí quyển được gọi là gì?",
+      "a": "Nhiệt kế",
+      "b": "Ẩm kế",
+      "c": "Khí áp kế (Barometer)",
+      "d": "Tốc kế",
+      "note": "Khí áp kế là thiết bị chuyên dụng để đo áp suất khí quyển, thường dùng trong dự báo thời tiết."
+    },
+    {
+      "id": 70,
+      "type": "4",
+      "title": "Lễ hội hóa trang Halloween được tổ chức vào ngày nào hàng năm?",
+      "a": "31/12",
+      "b": "14/02",
+      "c": "24/12",
+      "d": "31/10",
+      "note": "Halloween diễn ra vào ngày 31 tháng 10 hàng năm, đánh dấu đêm trước ngày Lễ Các Thánh của đạo Thiên Chúa."
+    },
+    {
+      "id": 71,
+      "type": "1",
+      "title": "Thành phố nào của nước Mỹ thường được mệnh danh là 'Thành phố không bao giờ ngủ'?",
+      "a": "New York",
+      "b": "Los Angeles",
+      "c": "Washington D.C",
+      "d": "Chicago",
+      "note": "New York, đặc biệt là khu vực Quảng trường Thời Đại (Times Square), nổi tiếng với nhịp sống sôi động bất kể ngày đêm."
+    },
+    {
+      "id": 72,
+      "type": "2",
+      "title": "Quốc gia nào trên thế giới có số lượng kim tự tháp nhiều nhất?",
+      "a": "Ai Cập",
+      "b": "Sudan",
+      "c": "Mexico",
+      "d": "Peru",
+      "note": "Rất bất ngờ, Sudan mới là quốc gia sở hữu nhiều kim tự tháp nhất thế giới (hơn 200), nhiều hơn hẳn Ai Cập."
+    },
+    {
+      "id": 73,
+      "type": "3",
+      "title": "Ngày lễ Quốc khánh của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam là ngày nào?",
+      "a": "30/4",
+      "b": "1/5",
+      "c": "2/9",
+      "d": "10/10",
+      "note": "Ngày 2 tháng 9 năm 1945, tại Quảng trường Ba Đình, Chủ tịch Hồ Chí Minh đã đọc bản Tuyên ngôn Độc lập khai sinh ra nước Việt Nam Dân chủ Cộng hòa."
+    },
+    {
+      "id": 74,
+      "type": "4",
+      "title": "Ai là huyền thoại bóng rổ NBA thường mang áo số 23 của đội Chicago Bulls?",
+      "a": "LeBron James",
+      "b": "Kobe Bryant",
+      "c": "Shaquille O'Neal",
+      "d": "Michael Jordan",
+      "note": "Michael Jordan được công nhận rộng rãi là cầu thủ bóng rổ vĩ đại nhất mọi thời đại, gắn liền với số áo 23 của Chicago Bulls."
+    },
+    {
+      "id": 75,
+      "type": "1",
+      "title": "Trong các loại quả sau, quả nào được biết đến là nguồn cung cấp dồi dào Vitamin C?",
+      "a": "Quả cam",
+      "b": "Quả chuối",
+      "c": "Quả táo",
+      "d": "Quả dưa hấu",
+      "note": "Các loại trái cây họ cam quýt như cam, chanh, bưởi chứa hàm lượng cao Vitamin C, rất tốt cho sức đề kháng."
+    },
+    {
+      "id": 76,
+      "type": "2",
+      "title": "Tác giả của áng thiên cổ hùng văn 'Bình Ngô đại cáo' là ai?",
+      "a": "Nguyễn Du",
+      "b": "Nguyễn Trãi",
+      "c": "Lê Lợi",
+      "d": "Trần Hưng Đạo",
+      "note": "Năm 1428, Nguyễn Trãi đã thừa lệnh Lê Lợi viết 'Bình Ngô đại cáo' để tuyên cáo về việc dẹp yên giặc Minh, bảo vệ độc lập dân tộc."
+    },
+    {
+      "id": 77,
+      "type": "3",
+      "title": "Đồng bằng sông Cửu Long (Tây Nam Bộ) của Việt Nam bao gồm bao nhiêu tỉnh và thành phố trực thuộc trung ương?",
+      "a": "11",
+      "b": "12",
+      "c": "13",
+      "d": "14",
+      "note": "Vùng đồng bằng sông Cửu Long gồm 13 đơn vị hành chính: 1 thành phố trực thuộc trung ương (Cần Thơ) và 12 tỉnh."
+    },
+    {
+      "id": 78,
+      "type": "4",
+      "title": "Chiến dịch Điện Biên Phủ lừng lẫy năm châu, chấn động địa cầu diễn ra vào năm nào?",
+      "a": "1945",
+      "b": "1975",
+      "c": "1930",
+      "d": "1954",
+      "note": "Chiến thắng Điện Biên Phủ diễn ra vào ngày 7 tháng 5 năm 1954, đánh dấu sự thất bại hoàn toàn của thực dân Pháp tại Đông Dương."
+    },
+    {
+      "id": 79,
+      "type": "1",
+      "title": "Thành ngữ 'Gót chân Achilles' thường được dùng để chỉ điều gì?",
+      "a": "Điểm yếu chí mạng",
+      "b": "Điểm mạnh tuyệt đối",
+      "c": "Sức mạnh phi thường",
+      "d": "Sự kiên cường không bỏ cuộc",
+      "note": "Bắt nguồn từ thần thoại Hy Lạp, gót chân là vị trí duy nhất trên cơ thể chiến binh Achilles có thể bị tổn thương."
+    },
+    {
+      "id": 80,
+      "type": "2",
+      "title": "Theo sự phân chia chính thức, đất nước Việt Nam có cộng đồng bao nhiêu dân tộc anh em?",
+      "a": "52",
+      "b": "54",
+      "c": "56",
+      "d": "58",
+      "note": "Việt Nam là một quốc gia đa dân tộc với 54 dân tộc anh em cùng chung sống hòa bình, trong đó người Kinh chiếm đa số."
+    },
+    {
+      "id": 81,
+      "type": "3",
+      "title": "Về mặt hành chính, quần đảo Trường Sa trực thuộc tỉnh nào của Việt Nam?",
+      "a": "Bà Rịa - Vũng Tàu",
+      "b": "Quảng Ngãi",
+      "c": "Khánh Hòa",
+      "d": "Bình Thuận",
+      "note": "Huyện đảo Trường Sa là một đơn vị hành chính cấp huyện trực thuộc quản lý của tỉnh Khánh Hòa."
+    },
+    {
+      "id": 82,
+      "type": "4",
+      "title": "Quốc gia nào ở châu Âu thường được người ta nhắc đến với biệt danh 'Đất nước cối xay gió'?",
+      "a": "Bỉ",
+      "b": "Đức",
+      "c": "Đan Mạch",
+      "d": "Hà Lan",
+      "note": "Hà Lan (Netherlands) nổi tiếng toàn thế giới với những chiếc cối xay gió cổ kính bên những cánh đồng hoa tulip."
+    },
+    {
+      "id": 83,
+      "type": "1",
+      "title": "Loài chim nào thường được chọn làm biểu tượng quốc tế cho hòa bình?",
+      "a": "Chim bồ câu trắng",
+      "b": "Chim đại bàng",
+      "c": "Chim cú mèo",
+      "d": "Chim quạ",
+      "note": "Hình ảnh chim bồ câu ngậm cành ô liu từ lâu đã trở thành biểu tượng phổ biến nhất cho sự hòa bình."
+    },
+    {
+      "id": 84,
+      "type": "2",
+      "title": "Trong 6 lục địa trên thế giới, lục địa nào có diện tích nhỏ nhất?",
+      "a": "Nam Cực",
+      "b": "Lục địa Úc (Châu Úc)",
+      "c": "Châu Âu",
+      "d": "Châu Phi",
+      "note": "Lục địa Úc (thuộc Châu Đại Dương) là vùng đất liền có diện tích nhỏ nhất nhưng lại độc chiếm toàn bộ quốc gia Australia."
+    },
+    {
+      "id": 85,
+      "type": "3",
+      "title": "Tượng Nữ thần Tự do, món quà của nước Pháp tặng cho nước Mỹ, được đặt tại thành phố nào?",
+      "a": "Washington D.C",
+      "b": "Los Angeles",
+      "c": "New York",
+      "d": "Chicago",
+      "note": "Bức tượng nổi tiếng này tọa lạc trên Đảo Liberty, ngay tại cảng của thành phố New York."
+    },
+    {
+      "id": 86,
+      "type": "4",
+      "title": "Ngày Quốc tế Lao động được kỷ niệm hàng năm vào ngày nào?",
+      "a": "8/3",
+      "b": "1/6",
+      "c": "20/11",
+      "d": "1/5",
+      "note": "Ngày 1 tháng 5 hàng năm là ngày lễ kỷ niệm và tri ân phong trào công nhân và người lao động trên toàn thế giới."
+    },
+    {
+      "id": 87,
+      "type": "1",
+      "title": "Trong dãy số tự nhiên, số nguyên tố nhỏ nhất (đầu tiên) là số nào?",
+      "a": "2",
+      "b": "1",
+      "c": "3",
+      "d": "5",
+      "note": "Số 2 là số nguyên tố nhỏ nhất vì nó chỉ có đúng hai ước số dương là 1 và chính nó. Số 1 không được coi là số nguyên tố."
+    },
+    {
+      "id": 88,
+      "type": "2",
+      "title": "Tiểu thuyết chương hồi kinh điển 'Tam quốc diễn nghĩa' của Trung Quốc là do ai viết?",
+      "a": "Thi Nại Am",
+      "b": "La Quán Trung",
+      "c": "Ngô Thừa Ân",
+      "d": "Tào Tuyết Cần",
+      "note": "La Quán Trung là tác giả của tác phẩm này, một trong Tứ đại danh tác của văn học cổ điển Trung Hoa."
+    },
+    {
+      "id": 89,
+      "type": "3",
+      "title": "Trong bảng tuần hoàn, biểu tượng hóa học của nguyên tố Sắt là gì?",
+      "a": "S",
+      "b": "Cu",
+      "c": "Fe",
+      "d": "Au",
+      "note": "Sắt có ký hiệu là Fe, xuất phát từ từ 'Ferrum' trong tiếng Latinh."
+    },
+    {
+      "id": 90,
+      "type": "4",
+      "title": "Tỉnh nào sau đây có diện tích tự nhiên lớn nhất Việt Nam?",
+      "a": "Đắk Lắk",
+      "b": "Gia Lai",
+      "c": "Sơn La",
+      "d": "Nghệ An",
+      "note": "Với diện tích hơn 16.481 km², Nghệ An là tỉnh có diện tích lớn nhất cả nước, nằm ở vùng Bắc Trung Bộ."
+    },
+    {
+      "id": 91,
+      "type": "1",
+      "title": "Loài động vật nào có kích thước và trọng lượng lớn nhất từng tồn tại trên hành tinh?",
+      "a": "Cá voi xanh",
+      "b": "Voi châu Phi",
+      "c": "Khủng long bạo chúa",
+      "d": "Cá mập voi",
+      "note": "Cá voi xanh là động vật lớn nhất, có thể dài tới 30 mét và nặng tới 170 tấn, vượt xa cả những loài khủng long lớn nhất."
+    },
+    {
+      "id": 92,
+      "type": "2",
+      "title": "Trong Hệ đo lường quốc tế (SI), đơn vị chuẩn dùng để đo độ dài là gì?",
+      "a": "Centimet (cm)",
+      "b": "Mét (m)",
+      "c": "Kilomet (km)",
+      "d": "Inch (in)",
+      "note": "Mét (m) là đơn vị cơ bản trong hệ SI để đo khoảng cách và chiều dài."
+    },
+    {
+      "id": 93,
+      "type": "3",
+      "title": "Tác phẩm văn học thiếu nhi nổi tiếng 'Dế Mèn phiêu lưu ký' là của nhà văn nào?",
+      "a": "Nam Cao",
+      "b": "Thạch Lam",
+      "c": "Tô Hoài",
+      "d": "Vũ Trọng Phụng",
+      "note": "Nhà văn Tô Hoài đã tạo nên một thế giới côn trùng sinh động và những bài học nhân sinh sâu sắc qua câu chuyện của Dế Mèn."
+    },
+    {
+      "id": 94,
+      "type": "4",
+      "title": "Hành tinh nào có hệ thống vành đai (vòng sáng) bao quanh đẹp và rõ nét nhất Hệ Mặt Trời?",
+      "a": "Sao Mộc",
+      "b": "Sao Thiên Vương",
+      "c": "Sao Kim",
+      "d": "Sao Thổ",
+      "note": "Sao Thổ (Saturn) nổi tiếng với hệ thống vành đai rộng lớn được cấu tạo chủ yếu từ hàng tỷ mảnh băng và đá."
+    },
+    {
+      "id": 95,
+      "type": "1",
+      "title": "Các thụ thể cảm nhận vị đắng thường tập trung nhiều nhất ở khu vực nào trên lưỡi người?",
+      "a": "Cuống lưỡi (phía trong cùng)",
+      "b": "Đầu lưỡi",
+      "c": "Hai bên cạnh lưỡi",
+      "d": "Giữa mặt lưỡi",
+      "note": "Vị đắng thường được cảm nhận rõ nhất ở phần cuống lưỡi. Đây được xem như một cơ chế phòng vệ tự nhiên để phát hiện các chất độc."
+    },
+    {
+      "id": 96,
+      "type": "2",
+      "title": "Nhà thám hiểm nào được lịch sử ghi nhận là người có công tìm ra Châu Mỹ vào năm 1492?",
+      "a": "Ferdinand Magellan",
+      "b": "Christopher Columbus",
+      "c": "Vasco da Gama",
+      "d": "James Cook",
+      "note": "Dù ông tưởng rằng mình đã đến Ấn Độ, nhưng chuyến đi của Christopher Columbus năm 1492 đã mở ra kỷ nguyên khám phá Châu Mỹ của người châu Âu."
+    },
+    {
+      "id": 97,
+      "type": "3",
+      "title": "Bài hát 'Tiến quân ca' - Quốc ca của nước Việt Nam - do nhạc sĩ nào sáng tác?",
+      "a": "Phạm Tuyên",
+      "b": "Trịnh Công Sơn",
+      "c": "Văn Cao",
+      "d": "Lưu Hữu Phước",
+      "note": "Nhạc sĩ Văn Cao đã sáng tác 'Tiến quân ca' vào năm 1944 và sau này được Chủ tịch Hồ Chí Minh chọn làm Quốc ca chính thức."
+    },
+    {
+      "id": 98,
+      "type": "4",
+      "title": "Ai là nhà hóa học đã sắp xếp và tạo ra Bảng tuần hoàn các nguyên tố hóa học đầu tiên?",
+      "a": "Albert Einstein",
+      "b": "Isaac Newton",
+      "c": "Marie Curie",
+      "d": "Dmitri Mendeleev",
+      "note": "Nhà khoa học người Nga Dmitri Mendeleev công bố bảng tuần hoàn vào năm 1869 dựa trên khối lượng nguyên tử và tính chất của chúng."
+    },
+    {
+      "id": 99,
+      "type": "1",
+      "title": "Môn thể thao cầu lông sử dụng loại bóng (cầu) có hình dáng và chất liệu như thế nào?",
+      "a": "Quả cầu lông (được cắm lông vũ nhân tạo/tự nhiên)",
+      "b": "Quả bóng bàn nhựa nhỏ",
+      "c": "Quả bóng tennis bọc nỉ",
+      "d": "Quả bóng da nhồi bông",
+      "note": "Đặc trưng của môn cầu lông là sử dụng quả cầu lông (shuttlecock) được gắn khoảng 16 chiếc lông vũ trên một đế bần."
+    },
+    {
+      "id": 100,
+      "type": "2",
+      "title": "Thành phố nào sau đây là thành phố trực thuộc trung ương duy nhất ở miền Trung Việt Nam?",
+      "a": "Nha Trang",
+      "b": "Đà Nẵng",
+      "c": "Huế",
+      "d": "Quy Nhơn",
+      "note": "Đà Nẵng là 1 trong 5 thành phố trực thuộc trung ương của Việt Nam và là trung tâm kinh tế - xã hội quan trọng của khu vực miền Trung."
     }
   ]
 }
