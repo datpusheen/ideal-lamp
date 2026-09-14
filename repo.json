@@ -37,7 +37,8 @@
           "downloadURL": "https://files.catbox.moe/5egsy2.ipa",
           "size": 128741215,
           "minOSVersion": "16.0",
-          "marketingVersion": "21.24.3 - YTLite 5.2.2"
+          "marketingVersion": "21.24.3 - YTLite 5.2.2",
+          "localizedDescription": "Đã cập nhật YouTube lên bản mới nhất"
         }
       ],
       "appPermissions": {
@@ -89,7 +90,8 @@
           "downloadURL": "https://files.catbox.moe/80rjtf.ipa",
           "size": 179000489,
           "minOSVersion": "18.0",
-          "marketingVersion": "7.92.0"
+          "marketingVersion": "7.92.0",
+          "localizedDescription": "Cập nhật Google Photos lên bản mới nhất."
         }
       ],
       "appPermissions": {
