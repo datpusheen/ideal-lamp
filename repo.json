@@ -1,173 +1,131 @@
 {
-    "name": "Pishun's Repo",
-    "subtitle": "Kho lưu trữ App Mod cá nhân",
-    "description": "Source AltStore cá nhân của pishun chứa các phiên bản ứng dụng đã được mod và tinh chỉnh.",
-    "iconURL": "https://raw.githubusercontent.com/datpusheen/ideal-lamp/refs/heads/main/logo.png",
-    "headerURL": "https://example.com/yt_repo_header.png",
-    "website": "https://pishun.me",
-    "tintColor": "#4185A9",
-    "featuredApps": [
-        "com.google.ios.youtube",
-        "com.google.ios.ytlite"
-    ],
-    "apps": [
+  "name": "Pishun's Repo",
+  "subtitle": "Kho lưu trữ App Mod cá nhân",
+  "description": "Source AltStore cá nhân của pishun chứa các phiên bản ứng dụng đã được mod và tinh chỉnh.",
+  "iconURL": "https://raw.githubusercontent.com/datpusheen/ideal-lamp/refs/heads/main/logo.png",
+  "website": "https://pishun.me",
+  "tintColor": "#4ebeea",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "YTLite",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "dayanch96",
+      "subtitle": "YTLite 5.2.2",
+      "localizedDescription": "Phiên bản YouTube tích hợp YTLite 5.2.2, xây dựng trên nền tảng YouTube gốc.",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "tintColor": "#FF0000",
+      "screenshots": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ],
+      "versions": [
         {
-            "name": "YouTube (YouMod)",
-            "bundleIdentifier": "com.google.ios.youtube",
-            "developerName": "Tonwalter888",
-            "subtitle": "YouMod v1.3.0",
-            "localizedDescription": "Phiên bản YouTube tích hợp YouMod mang lại trải nghiệm xem video không quảng cáo và nhiều tính năng mở rộng.",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/c0/87/49c08738-aeb4-e08c-28d9-220fb70becc6/Placeholder.mill/200x200bb-75.webp",
-            "tintColor": "#FF0000",
-            "screenshots": [
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/db/ec/36dbecd1-9a85-d55a-e84b-8022ea777825/7a94f703-7c3e-4789-9bd7-ce80045fe7b6_iOS-6.5-in_1.jpg/230x498bb.webp"
-            ],
-            "versions": [
-                {
-                    "version": "21.25.5",
-                    "date": "2026-06-25T08:00:00+07:00",
-                    "size": 165000000,
-                    "downloadURL": "https://github.com/datpusheen/YouMod/releases/download/youmod-ipa28/YouMod_21.25.5_v1.3.0.ipa",
-                    "localizedDescription": "Cập nhật YouTube lên phiên bản 21.25.5",
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "21.18.4",
-                    "date": "2026-05-07T10:00:00+07:00",
-                    "size": 165000000,
-                    "downloadURL": "https://github.com/datpusheen/YouMod/releases/download/youmod-ipa20/YouMod_21.18.4_v1.3.0.ipa",
-                    "localizedDescription": "Cập nhật YouMod v1.3.0:\n- Thêm tính năng tải xuống.",
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "21.17.3",
-                    "date": "2026-05-04T12:00:00+07:00",
-                    "size": 160000000,
-                    "downloadURL": "https://github.com/datpusheen/YouMod/releases/download/youmod-ipa13/YouMod_21.17.3_v1.2.3.ipa",
-                    "localizedDescription": "Cập nhật YouMod v1.2.3:\n- Thêm lại tùy chọn ẩn kệ Shorts và dọn dẹp mã nguồn. (#52)\n- Thêm tùy chọn thay thế nút chuyển bài (next/previous) bằng nút tua nhanh/lùi lại (forward/backward).\n- Thêm tùy chọn tắt các gợi ý (hints).\n- Thêm tùy chọn ép bật trình phát thu nhỏ (miniplayer), đặc biệt hữu ích cho video trẻ em.\n- Thêm tùy chọn luôn hiển thị thanh tua video trong chế độ toàn màn hình.\n- Cập nhật bản dịch tiếng Pháp.\n- Thêm bản dịch tiếng Việt.",
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "application-identifier",
-                    "aps-environment",
-                    "com.apple.developer.associated-domains",
-                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-                    "com.apple.developer.declared-age-range",
-                    "com.apple.developer.device-information.user-assigned-device-name",
-                    "com.apple.developer.group-session",
-                    "com.apple.developer.networking.multicast",
-                    "com.apple.developer.networking.wifi-info",
-                    "com.apple.developer.siri",
-                    "com.apple.developer.storekit.request-data",
-                    "com.apple.developer.usernotifications.communication",
-                    "com.apple.developer.usernotifications.time-sensitive",
-                    "com.apple.security.application-groups",
-                    "keychain-access-groups"
-                ],
-                "privacy": {
-                    "NSCameraUsageDescription": "This lets you create videos using the app.",
-                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
-                    "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
-                    "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
-                    "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
-                    "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
-                    "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
-                    "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
-                    "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
-                }
-            }
-        },
-        {
-            "name": "YTLite cracked",
-            "bundleIdentifier": "com.google.ios.ytlite",
-            "developerName": "dayanch96",
-            "subtitle": "YTLite 5.2.1",
-            "localizedDescription": "Phiên bản YouTube tích hợp YTLite 5.2.1, xây dựng trên nền tảng YouTube gốc.",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-            "tintColor": "#FF0000",
-            "screenshots": [
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-                "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-            ],
-            "versions": [
-                {
-                    "version": "21.17.3",
-                    "date": "2026-05-05T19:00:00+07:00",
-                    "size": 150000000,
-                    "downloadURL": "https://files.catbox.moe/saso73.ipa",
-                    "localizedDescription": "Cập nhật YTLite lên phiên bản 5.2.1 trên nền YouTube v21.17.3",
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "21.02.3",
-                    "date": "2026-05-01T10:00:00+07:00",
-                    "size": 150000000,
-                    "downloadURL": "https://github.com/datpusheen/YTLite/releases/download/ytp-11/YouTubePlus_5.2b4.ipa",
-                    "localizedDescription": "Bản phát hành YTLite 5.2b4 trên nền YouTube v21.02.3",
-                    "minOSVersion": "14.0"
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "application-identifier",
-                    "aps-environment",
-                    "com.apple.developer.associated-domains",
-                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-                    "com.apple.developer.declared-age-range",
-                    "com.apple.developer.device-information.user-assigned-device-name",
-                    "com.apple.developer.group-session",
-                    "com.apple.developer.networking.multicast",
-                    "com.apple.developer.networking.wifi-info",
-                    "com.apple.developer.siri",
-                    "com.apple.developer.storekit.request-data",
-                    "com.apple.developer.usernotifications.communication",
-                    "com.apple.developer.usernotifications.time-sensitive",
-                    "com.apple.security.application-groups",
-                    "keychain-access-groups"
-                ],
-                "privacy": {
-                    "NSCameraUsageDescription": "This lets you create videos using the app.",
-                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
-                    "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
-                    "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
-                    "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
-                    "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
-                    "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
-                    "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
-                    "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
-                }
-            }
+          "version": "21.24.3",
+          "buildVersion": "21.24.3",
+          "date": "2026-09-14",
+          "downloadURL": "https://files.catbox.moe/5egsy2.ipa",
+          "size": 128741215,
+          "minOSVersion": "16.0",
+          "marketingVersion": "21.24.3 - YTLite 5.2.2"
         }
-    ],
-    "news": [
-        {
-            "title": "YouMod cập nhật v21.25.5!",
-            "identifier": "youmod_update_v21255",
-            "caption": "Ứng dụng YouTube (YouMod) đã được nâng cấp lên phiên bản gốc 21.25.5 mới nhất.",
-            "date": "2026-06-25",
-            "tintColor": "#FF0000",
-            "imageURL": "https://example.com/yt_news_banner.png",
-            "notify": true,
-            "appID": "com.google.ios.youtube"
-        },
-        {
-            "title": "Ra mắt YouMod v1.3.0!",
-            "identifier": "youmod_update_v130",
-            "caption": "Bản cập nhật YouMod v1.3.0 trên nền YouTube v21.18.4 đã ra mắt, bổ sung thêm tính năng tải xuống video xịn sò.",
-            "date": "2026-05-07",
-            "tintColor": "#FF0000",
-            "imageURL": "https://example.com/yt_news_banner.png",
-            "notify": false,
-            "appID": "com.google.ios.youtube"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
         }
-    ]
+      },
+      "category": "photo-video"
+    },
+    {
+      "name": "Google Photos",
+      "bundleIdentifier": "com.google.photos",
+      "developerName": "tqmane",
+      "subtitle": "Lưu trữ Google Photos không giới hạn",
+      "localizedDescription": "Ứng dụng Google Photos tùy chỉnh giúp bạn up ảnh không giới hạn",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e5/a6/7b/e5a67b78-23fa-c602-48d2-dd1e646953c2/Placeholder.mill/400x400bb-75.webp",
+      "tintColor": "#7956ea",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "7.92.0",
+          "buildVersion": "7.92.977090216",
+          "date": "2026-09-14",
+          "downloadURL": "https://files.catbox.moe/80rjtf.ipa",
+          "size": 179000489,
+          "minOSVersion": "18.0",
+          "marketingVersion": "7.92.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Google Photos needs access to your music library to use your own music in movies",
+          "NSCalendarsFullAccessUsageDescription": "This allows you to easily create calendar events using Google Photos. Your iPhone calendar preferences can be configured in iOS Settings.",
+          "NSCalendarsUsageDescription": "This allows you to easily create calendar events using Google Photos. Your iPhone calendar preferences can be configured in iOS Settings.",
+          "NSCameraUsageDescription": "Camera can be used to capture photos and videos, update your profile picture, and scan cards for fast checkout when ordering prints",
+          "NSContactsUsageDescription": "This helps you share, label, and create contacts from your photos.\\nWhen you share photos with others, their contact information will be stored securely in Google Photos servers in order to send those photos.",
+          "NSFaceIDUsageDescription": "Google Photos can use Face ID to open Locked Folder quickly",
+          "NSLocalNetworkUsageDescription": "Access to your network allows Google Photos to discover and connect to devices such as your TV.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Lets you see your position on a map, and add locations to photos you take with the app",
+          "NSLocationAlwaysUsageDescription": "Lets you see your position on a map, and add locations to photos you take with the app",
+          "NSLocationWhenInUseUsageDescription": "Lets you see your position on a map, and add locations to photos you take with the app",
+          "NSMicrophoneUsageDescription": "Allow Google Photos to access your microphone for video capture.",
+          "NSMotionUsageDescription": "Google Photos uses motion data to help with location history accuracy",
+          "NSPhotoLibraryAddUsageDescription": "Google Photos needs access to download photos to your photo library",
+          "NSPhotoLibraryUsageDescription": "Google Photos needs access to your photo library to show your device photos and back them up"
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "YouMod cập nhật v21.25.5!",
+      "identifier": "youmod_update_v21255",
+      "caption": "Ứng dụng YouTube (YouMod) đã được nâng cấp lên phiên bản gốc 21.25.5 mới nhất.",
+      "date": "2026-06-25",
+      "tintColor": "#FF0000",
+      "notify": true
+    },
+    {
+      "title": "Ra mắt YouMod v1.3.0!",
+      "identifier": "youmod_update_v130",
+      "caption": "Bản cập nhật YouMod v1.3.0 trên nền YouTube v21.18.4 đã ra mắt, bổ sung thêm tính năng tải xuống video xịn sò.",
+      "date": "2026-05-07",
+      "tintColor": "#FF0000",
+      "notify": false
+    }
+  ]
 }
