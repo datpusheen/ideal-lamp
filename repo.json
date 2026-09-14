@@ -7,7 +7,8 @@
   "tintColor": "#4ebeea",
   "featuredApps": [
     "com.google.photos",
-    "com.google.ios.youtube"
+    "com.google.ios.youtube",
+    "com.spotify.client"
   ],
   "apps": [
     {
@@ -113,6 +114,50 @@
           "NSPhotoLibraryUsageDescription": "Google Photos needs access to your photo library to show your device photos and back them up"
         }
       }
+    },
+    {
+      "name": "Spotify",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "whoeevee",
+      "subtitle": "EeveeSpotify",
+      "localizedDescription": "Bản mod này khiến Spotify nghĩ bạn có Premium, giúp nghe nhạc miễn phí, giống như Spotilife, và thêm một số tính năng như custom lyrics.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/27/76/fc27767b-589b-2af9-52d5-1bbcdf50d64e/Placeholder.mill/400x400bb-75.webp",
+      "tintColor": "#7956EA",
+      "category": "entertainment",
+      "screenshots": [
+        "https://github.com/whoeevee/EeveeSpotifyReborn/raw/swift/Images/banner.png?"
+      ],
+      "versions": [
+        {
+          "version": "9.1.28",
+          "buildVersion": "912802258",
+          "date": "2026-09-14",
+          "downloadURL": "https://files.catbox.moe/vw1ss2.ipa",
+          "size": 98551716,
+          "minOSVersion": "16.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
+        }
+      }
     }
   ],
   "news": [
@@ -121,7 +166,8 @@
       "identifier": "app-update-14-9",
       "caption": "Kho repo đã được cập nhật với một số ứng dụng mới hơn",
       "date": "2026-09-14",
-      "notify": true
+      "notify": false,
+      "appID": "com.google.photos"
     }
   ]
 }
