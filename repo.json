@@ -167,7 +167,8 @@
       "caption": "Kho repo đã được cập nhật với một số ứng dụng mới hơn",
       "date": "2026-09-14",
       "notify": false,
-      "appID": "com.google.photos"
+      "appID": "com.google.photos",
+      "tintColor": "#a0adea"
     }
   ]
 }
