@@ -5,7 +5,10 @@
   "iconURL": "https://raw.githubusercontent.com/datpusheen/ideal-lamp/refs/heads/main/logo.png",
   "website": "https://pishun.me",
   "tintColor": "#4ebeea",
-  "featuredApps": [],
+  "featuredApps": [
+    "com.google.photos",
+    "com.google.ios.youtube"
+  ],
   "apps": [
     {
       "name": "YTLite",
@@ -69,7 +72,7 @@
       "category": "photo-video"
     },
     {
-      "name": "Google Photos",
+      "name": "Gunshot",
       "bundleIdentifier": "com.google.photos",
       "developerName": "tqmane",
       "subtitle": "Lưu trữ Google Photos không giới hạn",
@@ -112,20 +115,11 @@
   ],
   "news": [
     {
-      "title": "YouMod cập nhật v21.25.5!",
-      "identifier": "youmod_update_v21255",
-      "caption": "Ứng dụng YouTube (YouMod) đã được nâng cấp lên phiên bản gốc 21.25.5 mới nhất.",
-      "date": "2026-06-25",
-      "tintColor": "#FF0000",
+      "title": "Ứng dụng mới",
+      "identifier": "app-update-14-9",
+      "caption": "Kho repo đã được cập nhật với một số ứng dụng mới hơn",
+      "date": "2026-09-14",
       "notify": true
-    },
-    {
-      "title": "Ra mắt YouMod v1.3.0!",
-      "identifier": "youmod_update_v130",
-      "caption": "Bản cập nhật YouMod v1.3.0 trên nền YouTube v21.18.4 đã ra mắt, bổ sung thêm tính năng tải xuống video xịn sò.",
-      "date": "2026-05-07",
-      "tintColor": "#FF0000",
-      "notify": false
     }
   ]
 }
