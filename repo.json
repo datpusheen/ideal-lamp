@@ -158,6 +158,52 @@
           "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
         }
       }
+    },
+    {
+      "name": "MiniWatts",
+      "bundleIdentifier": "org.zhaohe.MiniWatts",
+      "developerName": "pishun",
+      "localizedDescription": "MiniWatts đọc các cảm biến quản lý nguồn của chính iPhone và hiển thị dòng điện thực tế: công suất đầu vào từ bộ sạc, công suất truyền tới pin, điện áp và dòng điện trên các đường nguồn, toàn bộ cảm biến nhiệt độ được bố trí trên sơ đồ điện thoại, các cấu hình USB-PD mà bộ sạc hỗ trợ, cùng lịch sử của từng lần sạc.",
+      "iconURL": "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/icon.png",
+      "tintColor": "#c4bc00",
+      "category": "other",
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/power.jpg",
+          "width": 1260,
+          "height": 2736
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/thermal.jpg",
+          "width": 1260,
+          "height": 2736
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/adapter.jpg",
+          "width": 1260,
+          "height": 2736
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/ResistanceTo/MiniWatts/master/docs/screenshots/history.jpg",
+          "width": 1260,
+          "height": 2736
+        }
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "14",
+          "date": "2026-09-18",
+          "downloadURL": "https://github.com/datpusheen/MiniWatts/releases/download/v1.3/MiniWatts-unsigned.ipa",
+          "size": 5952731,
+          "minOSVersion": "17.0",
+          "marketingVersion": "1.3 - việt hóa bởi pishun"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": [
