@@ -32,6 +32,15 @@
       ],
       "versions": [
         {
+          "version": "21.33.6",
+          "date": "2026-09-28",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa5/YouTubePlus_21.33.6_6.0b1.ipa",
+          "size": 143667872,
+          "minOSVersion": "17",
+          "marketingVersion": "21.33.6 - 6.0b1",
+          "localizedDescription": "Đã cập nhật YTlite lên phiên bản 6.0b1\nĐược crack bởi [@itzzace](https://github.com/itzzace)"
+        },
+        {
           "version": "21.24.3",
           "buildVersion": "21.24.3",
           "date": "2026-09-14",
@@ -71,7 +80,7 @@
           "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
         }
       },
-      "category": "photo-video"
+      "category": "social"
     },
     {
       "name": "Gunshot",
@@ -191,7 +200,7 @@
       ],
       "versions": [
         {
-          "version": "1.0",
+          "version": "1.3",
           "buildVersion": "14",
           "date": "2026-09-18",
           "downloadURL": "https://github.com/datpusheen/MiniWatts/releases/download/v1.3/MiniWatts-unsigned.ipa",
@@ -208,12 +217,12 @@
   ],
   "news": [
     {
-      "title": "Ứng dụng mới",
-      "identifier": "app-update-14-9",
-      "caption": "Kho repo đã được cập nhật với một số ứng dụng mới hơn",
+      "title": "YouTubePlus đã có bản mới!",
+      "identifier": "app-update-28-9",
+      "caption": "Ứng dụng YouTubePlus (YTLite) đã có bản mới! Hãy cài đặt để trải nghiệm nhé!",
       "date": "2026-09-14",
       "notify": false,
-      "appID": "com.google.photos",
+      "appID": "com.google.ios.youtube",
       "tintColor": "#a0adea"
     }
   ]
