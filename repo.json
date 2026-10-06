@@ -15,7 +15,7 @@
       "name": "YTLite",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "dayanch96",
-      "subtitle": "YTLite 6.0b1",
+      "subtitle": "YTLite 6.0b2",
       "localizedDescription": "Phiên bản YouTube tích hợp YTLite, xây dựng trên nền tảng YouTube gốc.",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
       "tintColor": "#FF0000",
@@ -31,6 +31,16 @@
         "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
       ],
       "versions": [
+        {
+          "version": "21.40.5",
+          "buildVersion": "21.40.5",
+          "date": "2026-10-06",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa6/YouTubePlus_21.40.5_6.0b2.ipa",
+          "size": 148252410,
+          "minOSVersion": "17.0",
+          "marketingVersion": "21.40.5 - YTLite 6.0b2",
+          "localizedDescription": "Update lên 6.0b2. Fix một số vấn đề liên quan đến playback."
+        },
         {
           "version": "21.33.6",
           "date": "2026-09-28",
@@ -221,7 +231,7 @@
       "identifier": "app-update-28-9",
       "caption": "Ứng dụng YouTubePlus (YTLite) đã có bản mới! Hãy cài đặt để trải nghiệm nhé!",
       "date": "2026-09-14",
-      "notify": false,
+      "notify": true,
       "appID": "com.google.ios.youtube",
       "tintColor": "#a0adea"
     }
